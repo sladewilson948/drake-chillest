@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Barcode+39+Extended+Text&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(24, 23, 23);
+}
+
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#button
+{
+    font-size: 22px;
+    background-color: rgb(245, 189, 8);
+    font-family: "Outfit", sans-serif;
+    border-radius: 5px;
+    width: 102px;
+    height: 33px;
+    
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+.mood
+{
+    font-family: "Outfit", sans-serif;
+    color: aliceblue;
+    font-size: 22px;
+    width: 120px;
+    
+}
+
+.select-mood
+{
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-container
+
+{
+    display: grid;
+    grid-template-columns: repeat(7, 5fr);
+    margin-left: 50px;
+    gap: 20px;
+    padding: 10px;
+    width: 45%;
+}
+
+.grid-itme
+{
+    background-color: aquamarine;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    font-size: 21px;
+    justify-content: center;
+    align-items: baseline;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Default shadow */
+
+}
+
+#now-playing
+{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: 0.5s ease-in;
+    }
+
+.grid-itme:hover
+{
+    cursor: pointer;
+    transform: translateY(-10px); /* Lift up */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 1rem;
+    color: aliceblue;
+}
