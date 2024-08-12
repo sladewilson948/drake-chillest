@@ -161,16 +161,15 @@
     {
         display: grid;
         grid-template-columns: repeat(3, 5fr);
-        margin-left: 35px;
-        gap: 10px;
-        padding: 10px;
+        margin-left: 6px;
+        gap: 11px;
     }
 
     .grid-itme
     {
-        height: 100px;
-        width: 100px;
-        font-size: 10px;
+        height: 120px;
+        width: 120px;
+        font-size: 14px;
     }
 
     .mood
