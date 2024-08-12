@@ -73,7 +73,7 @@
 
 .grid-itme
 {
-    background-color: aquamarine;
+    
     color: white;
     font-family: "Outfit", sans-serif;
     font-size: 18px;
@@ -93,14 +93,18 @@
 #now-playing
 {
     
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
-    padding: 20px;
-    font-size: 40px;
+    padding: 10px;
+    font-size: 30px;
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in;;
+    width: 100%;
+    z-index: 1000;
     }
 
 .grid-itme:hover
@@ -112,8 +116,7 @@
 
 .footer
 {
-    position: fixed;
-    bottom: 0;
+    
     display: flex;
     justify-content: center;
     align-items: center;
