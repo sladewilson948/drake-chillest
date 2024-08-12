@@ -48,6 +48,26 @@ const po = "./songs/23 Polar Opposites.mp3"
 
 const meltdown = "./songs/07 MELTDOWN.mp3"
 const otr = "./songs/Drake-Central-Cee-On-The-Radar-24Naijamuzic-com.mp3"
+const wty = "./songs/01 Who Told You (feat. Drake).mp3"
+const sar = "./songs/Drake - Search & Rescue (Official Visualizer).mp3"
+const wcd = "./songs/Popcaan - We Caa Done Ft Drake (Official Video).mp3"
+const rf = "./songs/01 Rich Flex.mp3"
+const md = "./songs/02 Major Distribution.mp3"
+const onbs = "./songs/03 On BS.mp3"
+const bob = "./songs/04 BackOutsideBoyz.mp3"
+const pr = "./songs/05 Privileged Rappers.mp3"
+const say = "./songs/06 Spin Bout U.mp3"
+const his = "./songs/07 Hours In Silence.mp3"
+const tt = "./songs/08 Treacherous Twins.mp3"
+const cl = "./songs/09 Circo Loco.mp3"
+const pandm = "./songs/10 Pussy & Millions (feat. Travis Sc.mp3"
+const bb = "./songs/11 Broke Boys.mp3"
+const mos = "./songs/12 Middle of the Ocean.mp3"
+const jsp = "./songs/13 Jumbotron Shit Poppin.mp3"
+const mm = "./songs/14 More M_s.mp3"
+const glenwood = "./songs/15 3AM on Glenwood.mp3"
+const igifm = "./songs/16 I Guess It_s Fuck Me.mp3"
+const sa = "./songs/DJ Khaled ft. Drake & Lil Baby - STAYING ALIVE (Official Video).mp3"
 
 const intro = "./songs/01 Intro.mp3"
 const fb = "./songs/02 Falling Back.mp3"
@@ -319,6 +339,89 @@ document.getElementById("otr").addEventListener("click", ()=> {
 })
 
 
+document.getElementById("wty").addEventListener("click", ()=> {
+    playMusic(wty,"wty")
+})
+
+
+document.getElementById("sar").addEventListener("click", ()=> {
+    playMusic(sar,"sar")
+})
+
+
+document.getElementById("wcd").addEventListener("click", ()=> {
+    playMusic(wcd,"wcd")
+})
+
+document.getElementById("rf").addEventListener("click", ()=> {
+    playMusic(rf,"rf")
+})
+
+document.getElementById("md").addEventListener("click", ()=> {
+    playMusic(md,"md")
+})
+
+document.getElementById("onbs").addEventListener("click", ()=> {
+    playMusic(onbs,"onbs")
+})
+document.getElementById("bob").addEventListener("click", ()=> {
+    playMusic(bob,"bob")
+})
+
+
+document.getElementById("pr").addEventListener("click", ()=> {
+    playMusic(pr,"pr")
+})
+
+
+document.getElementById("say").addEventListener("click", ()=> {
+    playMusic(say,"say")
+})
+
+document.getElementById("his").addEventListener("click", ()=> {
+    playMusic(his,"his")
+})
+
+
+document.getElementById("tt").addEventListener("click", ()=> {
+    playMusic(tt,"tt")
+})
+
+document.getElementById("cl").addEventListener("click", ()=> {
+    playMusic(cl,"cl")
+})
+
+document.getElementById("pandm").addEventListener("click", ()=> {
+    playMusic(pandm,"pandm")
+})
+
+document.getElementById("bb").addEventListener("click", ()=> {
+    playMusic(bb,"bb")
+})
+
+document.getElementById("mos").addEventListener("click", ()=> {
+    playMusic(mos,"mos")
+})
+
+document.getElementById("jsp").addEventListener("click", ()=> {
+    playMusic(jsp,"jsp")
+})
+
+document.getElementById("mm").addEventListener("click", ()=> {
+    playMusic(mm,"mm")
+})
+
+document.getElementById("glenwood").addEventListener("click", ()=> {
+    playMusic(glenwood,"glenwood")
+})
+
+document.getElementById("igifm").addEventListener("click", ()=> {
+    playMusic(igifm,"igifm")
+})
+
+document.getElementById("sa").addEventListener("click", ()=> {
+    playMusic(sa,"sa")
+})
 
 
 document.getElementById("intro").addEventListener("click", ()=> {
