@@ -127,3 +127,63 @@
     padding: 1rem;
     color: aliceblue;
 }
+
+
+@media screen and (max-width: 768px){
+
+
+    .header
+    {
+
+        font-size: 18px;
+
+    }
+
+    .select-mood
+    {
+        font-size: 14px;
+    }
+
+    #now-playing
+    {
+        font-size: 12px;
+    }
+
+    #button
+    {
+        font-size: 14px;
+        width: 80px;
+
+    }
+
+
+    .grid-container
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 5fr);
+        margin-left: 35px;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .grid-itme
+    {
+        height: 100px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .mood
+    {
+        font-size: 14px;
+    }
+    .footer
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 18px;
+    }
+    
+}
