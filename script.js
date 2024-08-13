@@ -118,7 +118,7 @@ const lcl = "./songs/Laugh Now Cry Later.mp3"
 const tandt = "./songs/Popcaan  - TWIST & TURN (feat. Drake & PARTYNEXTDOOR) (Official Audio).mp3"
 const oyf = "./songs/Headie One & Drake - Only You Freestyle (Lyrics).mp3"
 const popstar = "./songs/DJ Khaled ft. Drake - POPSTAR (Lyrics).mp3"
-const greece = "./songs/DJ Khaled ft. Drake - POPSTAR (Lyrics).mp3"
+const greece = "./songs/DJ Khaled ft. Drake - GREECE (Official Visualizer).mp3"
 
 
 const dp = "./songs/01 Deep Pockets.mp3"
