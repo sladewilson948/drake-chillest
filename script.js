@@ -69,6 +69,8 @@ const glenwood = "./songs/15 3AM on Glenwood.mp3"
 const igifm = "./songs/16 I Guess It_s Fuck Me.mp3"
 const sa = "./songs/DJ Khaled ft. Drake & Lil Baby - STAYING ALIVE (Official Video).mp3"
 
+
+
 const intro = "./songs/01 Intro.mp3"
 const fb = "./songs/02 Falling Back.mp3"
 const tgg = "./songs/03 Texts Go Green.mp3"
@@ -84,6 +86,39 @@ const ttb = "./songs/12 Tie That Binds.mp3"
 const liab = "./songs/13 Liability.mp3"
 const jc = "./songs/14 Jimmy Cooks (feat. 21 Savage).mp3"
 
+const champ = "./songs/01 - Drake - Champagne Poetry.flac"
+const ph= "./songs/02 - Drake - Papis Home.flac"
+const gwg = "./songs/03 - Drake - Girls Want Girls.flac"
+const itb = "./songs/04 - Drake - In The Bible.flac"
+const loveall = "./songs/05 - Drake - Love All.flac"
+const ft = "./songs/06 - Drake - Fair Trade.flac"
+const wts = "./songs/07 - Drake - Way 2 Sexy.flac"
+const tsu = "./songs/08 - Drake - TSU.flac"
+const ntd = "./songs/09 - Drake - N 2 Deep.flac"
+const pd = "./songs/10 - Drake - Pipe Down.flac"
+const yh = "./songs/11 - Drake - Yebba’s Heartbreak.flac"
+const nfid = "./songs/12 - Drake - No Friends In The Industry.flac"
+const kt = "./songs/13 - Drake - Knife Talk.flac"
+const bridal = "./songs/14 - Drake - 7am On Bridle Path.flac"
+const rmm = "./songs/15 - Drake - Race My Mind.flac"
+const fountains = "./songs/16 - Drake - Fountains.flac"
+const gab = "./songs/17 - Drake - Get Along Better.flac"
+const yolt = "./songs/18 - Drake - You Only Live Twice.flac"
+const imy = "./songs/19 - Drake - IMY2.flac"
+const fg = "./songs/20 - Drake - Fucking Fans.flac"
+const tr = "./songs/21 - Drake - The Remorse.flac"
+const ovt = "./songs/Smiley - Over The Top (feat. Drake) [Official Audio].mp3"
+const sg = "./songs/Nicki Minaj, Drake, Lil Wayne - Seeing Green (Audio).mp3"
+const wn = "./songs/Drake - Whats Next (Official Lyric Video).mp3"
+const wan = "./songs/Wants and Needs.mp3"
+const lpf = "./songs/Lemon Pepper Freestyle.mp3"
+const bkf = "./songs/B.B. King Freestyle.mp3"
+const yms = "./songs/Yung Bleu - You're Mines Still (feat. Drake) [Official Audio].mp3"
+const lcl = "./songs/Laugh Now Cry Later.mp3"
+const tandt = "./songs/Popcaan  - TWIST & TURN (feat. Drake & PARTYNEXTDOOR) (Official Audio).mp3"
+const oyf = "./songs/Headie One & Drake - Only You Freestyle (Lyrics).mp3"
+const popstar = "./songs/DJ Khaled ft. Drake - POPSTAR (Lyrics).mp3"
+const greece = "./songs/DJ Khaled ft. Drake - POPSTAR (Lyrics).mp3"
 
 
 const dp = "./songs/01 Deep Pockets.mp3"
@@ -467,7 +502,105 @@ document.getElementById("jc").addEventListener("click", ()=> {
     playMusic(jc,"jc")
 })
 
-
+document.getElementById("champ").addEventListener("click", ()=> {
+    playMusic(champ,"champ")
+})
+document.getElementById("ph").addEventListener("click", ()=> {
+    playMusic(ph,"ph")
+})
+document.getElementById("gwg").addEventListener("click", ()=> {
+    playMusic(gwg,"gwg")
+})
+document.getElementById("itb").addEventListener("click", ()=> {
+    playMusic(itb,"itb")
+})
+document.getElementById("loveall").addEventListener("click", ()=> {
+    playMusic(loveall,"loveall")
+})
+document.getElementById("ft").addEventListener("click", ()=> {
+    playMusic(ft,"ft")
+})
+document.getElementById("wts").addEventListener("click", ()=> {
+    playMusic(wts,"wts")
+})
+document.getElementById("tsu").addEventListener("click", ()=> {
+    playMusic(tsu,"tsu")
+})
+document.getElementById("ntd").addEventListener("click", ()=> {
+    playMusic(ntd,"ntd")
+})
+document.getElementById("pd").addEventListener("click", ()=> {
+    playMusic(pd,"pd")
+})
+document.getElementById("yh").addEventListener("click", ()=> {
+    playMusic(yh,"yh")
+})
+document.getElementById("nfid").addEventListener("click", ()=> {
+    playMusic(nfid,"nfid")
+})
+document.getElementById("kt").addEventListener("click", ()=> {
+    playMusic(kt,"kt")
+})
+document.getElementById("bridal").addEventListener("click", ()=> {
+    playMusic(bridal,"bridal")
+})
+document.getElementById("rmm").addEventListener("click", ()=> {
+    playMusic(rmm,"rmm")
+})
+document.getElementById("fountains").addEventListener("click", ()=> {
+    playMusic(fountains,"fountains")
+})
+document.getElementById("gab").addEventListener("click", ()=> {
+    playMusic(gab,"gab")
+})
+document.getElementById("yolt").addEventListener("click", ()=> {
+    playMusic(yolt,"yolt")
+})
+document.getElementById("imy").addEventListener("click", ()=> {
+    playMusic(imy,"imy")
+})
+document.getElementById("fg").addEventListener("click", ()=> {
+    playMusic(fg,"fg")
+})
+document.getElementById("tr").addEventListener("click", ()=> {
+    playMusic(tr,"tr")
+})
+document.getElementById("ovt").addEventListener("click", ()=> {
+    playMusic(ovt,"ovt")
+})
+document.getElementById("sg").addEventListener("click", ()=> {
+    playMusic(sg,"sg")
+})
+document.getElementById("wn").addEventListener("click", ()=> {
+    playMusic(wn,"wn")
+})
+document.getElementById("wan").addEventListener("click", ()=> {
+    playMusic(wan,"wan")
+})
+document.getElementById("lpf").addEventListener("click", ()=> {
+    playMusic(lpf,"lpf")
+})
+document.getElementById("bkf").addEventListener("click", ()=> {
+    playMusic(bkf,"bkf")
+})
+document.getElementById("yms").addEventListener("click", ()=> {
+    playMusic(yms,"yms")
+})
+document.getElementById("lcl").addEventListener("click", ()=> {
+    playMusic(lcl,"lcl")
+})
+document.getElementById("tandt").addEventListener("click", ()=> {
+    playMusic(tandt,"tandt")
+})
+document.getElementById("oyf").addEventListener("click", ()=> {
+    playMusic(oyf,"oyf")
+})
+document.getElementById("popstar").addEventListener("click", ()=> {
+    playMusic(popstar,"popstar")
+})
+document.getElementById("greece").addEventListener("click", ()=> {
+    playMusic(greece,"greece")
+})
 
 document.getElementById("dp").addEventListener("click", ()=> {
     playMusic(dp,"dp")
