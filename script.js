@@ -145,6 +145,34 @@ let prev = null
 
 
 
+document.getElementById("button").addEventListener("click", ()=> {
+
+    let mood = document.getElementById("mood").value
+    let gridItems = document.getElementsByClassName("grid-itme")
+
+    Array.from(gridItems).forEach(x=> {
+        if(mood==="all")
+        {
+            x.style.display = "block"
+        }
+        else if(x.classList.contains(mood))
+        {
+            x.style.display = "block"
+        }
+        
+        else{
+            x.style.display = "none"
+        }
+    })
+})
+
+
+let list1 = Array(document.getElementsByClassName("grid-itme"))
+console.log(list1)
+Array.from(list1).forEach(x=> {
+    console.log(x)
+})
+
 
 
 
