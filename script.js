@@ -112,6 +112,7 @@ const sg = "./songs/Nicki Minaj, Drake, Lil Wayne - Seeing Green (Audio).mp3"
 const wn = "./songs/Drake - Whats Next (Official Lyric Video).mp3"
 const wan = "./songs/Wants and Needs.mp3"
 const lpf = "./songs/Lemon Pepper Freestyle.mp3"
+const gr = "./songs/Rick Ross - Gold Roses (Official Audio) ft. Drake.mp3"
 const bkf = "./songs/B.B. King Freestyle.mp3"
 const yms = "./songs/Yung Bleu - You're Mines Still (feat. Drake) [Official Audio].mp3"
 const lcl = "./songs/Laugh Now Cry Later.mp3"
@@ -136,6 +137,10 @@ const ffwl = "./songs/12 From Florida With Love.mp3"
 const demons = "./songs/13 Demons (feat. Fivio Foreign & Sos.mp3"
 const war = "./songs/14 War.mp3"
 
+const lig = "./songs/Future - Life Is Good (Audio) ft. Drake.mp3"
+const ng = "./songs/Chris Brown - No Guidance (Audio) ft. Drake.mp3"
+const bbb = "./songs/Drake - Behind Barz (Lyrics).mp3"
+
 let prev = null
 
 
@@ -155,6 +160,7 @@ window.addEventListener("scroll", ()=> {
 
 const np = document.getElementById("now-playing")
 
+np.textContent = ""
 document.getElementById("go-up").addEventListener("click", ()=> {
     window.scrollTo(0,0)
 })
@@ -600,6 +606,10 @@ document.getElementById("wan").addEventListener("click", ()=> {
 document.getElementById("lpf").addEventListener("click", ()=> {
     playMusic(lpf,"lpf")
 })
+
+document.getElementById("gr").addEventListener("click", ()=> {
+    playMusic(gr,"gr")
+})
 document.getElementById("bkf").addEventListener("click", ()=> {
     playMusic(bkf,"bkf")
 })
@@ -677,6 +687,18 @@ document.getElementById("demons").addEventListener("click", ()=> {
 
 document.getElementById("war").addEventListener("click", ()=> {
     playMusic(war,"war")
+})
+
+document.getElementById("lig").addEventListener("click", ()=> {
+    playMusic(lig,"lig")
+})
+
+document.getElementById("ng").addEventListener("click", ()=> {
+    playMusic(ng,"ng")
+})
+
+document.getElementById("bbb").addEventListener("click", ()=> {
+    playMusic(bbb,"bbb")
 })
 
 

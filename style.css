@@ -17,7 +17,7 @@ html
 body
 {
     
-    background-color: rgb(24, 23, 23);;
+    background-color: rgb(24, 23, 23);
 }
 
 .header
@@ -115,6 +115,7 @@ body
     transition: opacity 0.3s ease-in;
     width: 100%;
     z-index: 1000;
+    background-color: rgb(24, 23, 23);
     opacity: 1;
     }
 
