@@ -10,6 +10,11 @@
     background-color: rgb(24, 23, 23);
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 
 .header
 {
@@ -67,8 +72,8 @@
     grid-template-columns: repeat(7, 5fr);
     gap: 20px;
     width: 100%;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 .grid-itme
@@ -102,9 +107,10 @@
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
-    transition: 0.5s ease-in;;
+    transition: opacity 0.3s ease-in;
     width: 100%;
     z-index: 1000;
+    opacity: 1;
     }
 
 .grid-itme:hover
@@ -112,6 +118,23 @@
     cursor: pointer;
     transform: translateY(-10px); /* Lift up */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.go-up
+{
+    position:fixed;
+    z-index: 1000;
+    bottom: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 34px;
+    display: flex;
+    padding-right: 5px;
+    width: 100%;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    background-color: transparent;
+
 }
 
 .footer

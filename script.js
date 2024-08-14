@@ -136,16 +136,31 @@ const ffwl = "./songs/12 From Florida With Love.mp3"
 const demons = "./songs/13 Demons (feat. Fivio Foreign & Sos.mp3"
 const war = "./songs/14 War.mp3"
 
+let prev = null
 
 
 
 
 
 
+window.addEventListener("scroll", ()=> {
+    if(scrollY>window.length)
+    {
+        document.getElementById("go-up").style.display = "flex"
+    }
+    else{
+        document.getElementById("go-up").style.display = "none"
+    }
+})
 
 const np = document.getElementById("now-playing")
 
+document.getElementById("go-up").addEventListener("click", ()=> {
+    window.scrollTo(0,0)
+})
+
 //// we will be only creating the audio objectr when there will be a need to play that music
+
 
 function playMusic(src, elementId)
 {
@@ -155,12 +170,17 @@ function playMusic(src, elementId)
     }
     currentAudio = new Audio(src); // Create the Audio object only when needed
     currentAudio.play();
-    np.textContent = `Now Playing....${document.getElementById(elementId).textContent}`;
-    np.style.color = "white";
-    prev = currentAudio;
+    prev = currentAudio
+    np.style.opacity = 0;
+
+    setTimeout(() => {
+        np.textContent = `Now Playing....${document.getElementById(elementId).textContent}`;
+        np.style.color = "white"; // Change color (this will also transition)
+        np.style.opacity = 1; // Fade back in
+    }, 500);
 }
 
-let prev = null
+
 
 
 
