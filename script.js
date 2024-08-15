@@ -141,6 +141,52 @@ const lig = "./songs/Future - Life Is Good (Audio) ft. Drake.mp3"
 const ng = "./songs/Chris Brown - No Guidance (Audio) ft. Drake.mp3"
 const bbb = "./songs/Drake - Behind Barz (Lyrics).mp3"
 
+const dmcb = "./songs/1-Dreams-Money-Can-Buy.mp3"
+const tm = "./songs/2-The-Motion.mp3"
+const han = "./songs/3-How-Bout-Now.mp3"
+const ti = "./songs/4-Trust-Issues.mp3"
+const dine = "./songs/5-Days-in-The-East.mp3"
+const dd = "./songs/6-Draft-Day.mp3"
+const fourpm = "./songs/7-4pm-in-Calabasas.mp3"
+const fivepm = "./songs/8-5-Am-in-Toronto.mp3"
+const igl = "./songs/9-I-Get-Lonely.mp3"
+const ms = "./songs/10-My-Side.mp3"
+const jf = "./songs/11-Jodeci-Freestyle.mp3"
+const cp = "./songs/12-Club-Paradise.mp3"
+const fs = "./songs/13-Free-Spirit.mp3"
+const hotm = "./songs/14-Heat-Of-The-Moment.mp3"
+const glb = "./songs/15-Girls-Love-Beyoncé.mp3"
+const pmm = "./songs/16-Paris-Morton-Music.mp3"
+const ci = "./songs/17-Can-I.mp3"
+
+
+const survival = "./songs/1-Drake-Survival.mp3"
+const nonstop = "./songs/2-Drake-Nonstop.mp3"
+const elevate = "./songs/3-Drake-Elevate.mp3"
+const emotionless = "./songs/4-Drake-Emotionless.mp3"
+const godsp = "./songs/5-Drake-Gods-Plan.mp3"
+const imupset = "./songs/6-Drake-Im-Upset.mp3"
+const eightten = "./songs/7-Drake-8-Out-Of-10.mp3"
+const mt = "./songs/8-Drake-Mob-Ties.mp3"
+const ctaj = "./songs/9-Drake-Can’t-Take-A-Joke.mp3"
+const sr = "./songs/10-Drake-Sandra’s-Rose.mp3"
+const tu = "./songs/11-Drake-Talk-Up.mp3"
+const itm = "./songs/12-Drake-Is-There-More.mp3"
+const peak = "./songs/13-Drake-Peak.mp3"
+const summergames = "./songs/14-Drake-Summer-Games.mp3"
+const jaded = "./songs/15-Drake-Jaded.mp3"
+const nfw = "./songs/16-Drake-Nice-For-What.mp3"
+const finn = "./songs/17-Drake-Finesse.mp3"
+const rhb = "./songs/18-Drake-Ratchet-Happy-Birthday.mp3"
+const thyf = "./songs/19-Drake-That’s-How-You-Feel.mp3"
+const bluetint = "./songs/20-Drake-Blue-Tint.mp3"
+const imf = "./songs/21-Drake-In-My-Feelings.mp3"
+const dontmatter = "./songs/22-Drake-Don’t-Matter-To-Me.mp3"
+const ad = "./songs/23-Drake-After-Dark.mp3"
+const ff = "./songs/24-Drake-Final-Fantasy.mp3"
+const mfour = "./songs/25-Drake-March-14.mp3"
+
+
 let prev = null
 
 
@@ -167,12 +213,6 @@ document.getElementById("button").addEventListener("click", ()=> {
 })
 
 
-let list1 = Array(document.getElementsByClassName("grid-itme"))
-console.log(list1)
-Array.from(list1).forEach(x=> {
-    console.log(x)
-})
-
 
 
 
@@ -193,7 +233,7 @@ document.getElementById("go-up").addEventListener("click", ()=> {
     window.scrollTo(0,0)
 })
 
-//// we will be only creating the audio objectr when there will be a need to play that music
+//// we will be only creating the audio object when there will be a need to play that music
 
 
 function playMusic(src, elementId)
@@ -729,7 +769,180 @@ document.getElementById("bbb").addEventListener("click", ()=> {
     playMusic(bbb,"bbb")
 })
 
+document.getElementById("dmcb").addEventListener("click", ()=> {
+    playMusic(dmcb,"dmcb")
+})
+
+document.getElementById("tm").addEventListener("click", ()=> {
+    playMusic(tm,"tm")
+})
+
+document.getElementById("han").addEventListener("click", ()=> {
+    playMusic(han,"han")
+})
+
+document.getElementById("ti").addEventListener("click", ()=> {
+    playMusic(ti,"ti")
+})
+
+document.getElementById("dine").addEventListener("click", ()=> {
+    playMusic(dine,"dine")
+})
+
+document.getElementById("dd").addEventListener("click", ()=> {
+    playMusic(dd,"dd")
+})
+
+document.getElementById("fourpm").addEventListener("click", ()=> {
+    playMusic(fourpm,"fourpm")
+})
+
+document.getElementById("fivepm").addEventListener("click", ()=> {
+    playMusic(fivepm,"fivepm")
+})
+
+document.getElementById("igl").addEventListener("click", ()=> {
+    playMusic(igl,"igl")
+})
+
+document.getElementById("ms").addEventListener("click", ()=> {
+    playMusic(ms,"ms")
+})
+
+document.getElementById("jf").addEventListener("click", ()=> {
+    playMusic(jf,"jf")
+})
+
+document.getElementById("cp").addEventListener("click", ()=> {
+    playMusic(cp,"cp")
+})
+
+document.getElementById("fs").addEventListener("click", ()=> {
+    playMusic(fs,"fs")
+})
+
+document.getElementById("hotm").addEventListener("click", ()=> {
+    playMusic(hotm,"hotm")
+})
+
+document.getElementById("glb").addEventListener("click", ()=> {
+    playMusic(glb,"glb")
+})
+
+document.getElementById("pmm").addEventListener("click", ()=> {
+    playMusic(pmm,"pmm")
+})
+
+document.getElementById("ci").addEventListener("click", ()=> {
+    playMusic(ci,"ci")
+})
+
+document.getElementById("survival").addEventListener("click", ()=> {
+    playMusic(survival,"survival")
+})
+
+document.getElementById("nonstop").addEventListener("click", ()=> {
+    playMusic(nonstop,"nonstop")
+})
+
+document.getElementById("elevate").addEventListener("click", ()=> {
+    playMusic(elevate,"elevate")
+})
+
+document.getElementById("emotionless").addEventListener("click", ()=> {
+    playMusic(emotionless,"emotionless")
+})
 
 
+document.getElementById("godsp").addEventListener("click", ()=> {
+    playMusic(godsp,"godsp")
+})
 
+
+document.getElementById("imupset").addEventListener("click", ()=> {
+    playMusic(imupset,"imupset")
+})
+
+document.getElementById("eightten").addEventListener("click", ()=> {
+    playMusic(eightten,"eightten")
+})
+
+
+document.getElementById("mt").addEventListener("click", ()=> {
+    playMusic(mt,"mt")
+})
+
+
+document.getElementById("ctaj").addEventListener("click", ()=> {
+    playMusic(ctaj,"ctaj")
+})
+
+document.getElementById("sr").addEventListener("click", ()=> {
+    playMusic(sr,"sr")
+})
+
+
+document.getElementById("tu").addEventListener("click", ()=> {
+    playMusic(tu,"tu")
+})
+
+document.getElementById("itm").addEventListener("click", ()=> {
+    playMusic(itm,"itm")
+})
+
+document.getElementById("peak").addEventListener("click", ()=> {
+    playMusic(peak,"peak")
+})
+
+document.getElementById("summergames").addEventListener("click", ()=> {
+    playMusic(summergames,"summergames")
+})
+
+
+document.getElementById("jaded").addEventListener("click", ()=> {
+    playMusic(jaded,"jaded")
+})
+
+document.getElementById("nfw").addEventListener("click", ()=> {
+    playMusic(nfw,"nfw")
+})
+
+
+document.getElementById("finn").addEventListener("click", ()=> {
+    playMusic(finn,"finn")
+})
+
+document.getElementById("rhb").addEventListener("click", ()=> {
+    playMusic(rhb,"rhb")
+})
+
+
+document.getElementById("thyf").addEventListener("click", ()=> {
+    playMusic(thyf,"thyf")
+})
+
+document.getElementById("bluetint").addEventListener("click", ()=> {
+    playMusic(bluetint,"bluetint")
+})
+
+document.getElementById("imf").addEventListener("click", ()=> {
+    playMusic(imf,"imf")
+})
+
+
+document.getElementById("dontmatter").addEventListener("click", ()=> {
+    playMusic(dontmatter,"dontmatter")
+})
+
+document.getElementById("ad").addEventListener("click", ()=> {
+    playMusic(ad,"ad")
+})
+
+document.getElementById("ff").addEventListener("click", ()=> {
+    playMusic(ff,"ff")
+})
+
+document.getElementById("mfour").addEventListener("click", ()=> {
+    playMusic(mfour,"mfour")
+})
 
