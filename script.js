@@ -10,6 +10,7 @@ const healing = "./songs/Gordo & Drake - Healing [Ultra Records].mp3"
 const hu = "./songs/08 HOT UPTOWN (feat. Drake).mp3"
 const ugly = "./songs/09 Uuugly.mp3"
 
+const hpsix = "./songs/THE HEART PART 6 - DRAKE.mp3"
 const fm = "./songs/01 Family Matters.mp3"
 const pushups = "./songs/Push Ups.mp3"
 const actii = "./songs/4Batz - act ii- date @ 8 (remix) feat. Drake.mp3"
@@ -309,6 +310,10 @@ document.getElementById("ugly").addEventListener("click", ()=> {
     playMusic(ugly,"ugly")
 })
 
+document.getElementById("hpsix").addEventListener("click", ()=> {
+    
+    playMusic(hpsix,"hpsix")
+})
 
 document.getElementById("fm").addEventListener("click", ()=> {
     
