@@ -136,6 +136,7 @@ const loss = "./songs/11 Losses.mp3"
 const ffwl = "./songs/12 From Florida With Love.mp3"
 const demons = "./songs/13 Demons (feat. Fivio Foreign & Sos.mp3"
 const war = "./songs/14 War.mp3"
+const loyal = "./songs/PARTYNEXTDOOR - Loyal (feat. Drake) [Official Audio].mp3"
 
 const lig = "./songs/Future - Life Is Good (Audio) ft. Drake.mp3"
 const ng = "./songs/Chris Brown - No Guidance (Audio) ft. Drake.mp3"
@@ -159,6 +160,9 @@ const glb = "./songs/15-Girls-Love-Beyoncé.mp3"
 const pmm = "./songs/16-Paris-Morton-Music.mp3"
 const ci = "./songs/17-Can-I.mp3"
 
+const omreta = "./songs/Omertà.mp3"
+const mitg = "./songs/Drake - Money In The Grave (Lyrics) ft. Rick Ross.mp3"
+const mia = "./songs/Bad Bunny, Drake - MIA (Lyrics  Letra).mp3"
 
 const survival = "./songs/1-Drake-Survival.mp3"
 const nonstop = "./songs/2-Drake-Nonstop.mp3"
@@ -186,6 +190,14 @@ const ad = "./songs/23-Drake-After-Dark.mp3"
 const ff = "./songs/24-Drake-Final-Fantasy.mp3"
 const mfour = "./songs/25-Drake-March-14.mp3"
 
+const lookalive = "./songs/BlocBoy JB, Drake - Look Alive (Lyrics).mp3"
+const di = "./songs/Diplomatic Immunity.mp3"
+const signs = "./songs/Drake - Signs.mp3"
+
+
+const b2b = "./songs/Drake - Back to Back (Lyrics).mp3"
+const chargedup = "./songs/Charged Up.mp3"
+const rh = "./songs/Drake - Right Hand.mp3"
 
 let prev = null
 
@@ -757,6 +769,10 @@ document.getElementById("war").addEventListener("click", ()=> {
     playMusic(war,"war")
 })
 
+document.getElementById("loyal").addEventListener("click", ()=> {
+    playMusic(loyal,"loyal")
+})
+
 document.getElementById("lig").addEventListener("click", ()=> {
     playMusic(lig,"lig")
 })
@@ -835,6 +851,18 @@ document.getElementById("pmm").addEventListener("click", ()=> {
 
 document.getElementById("ci").addEventListener("click", ()=> {
     playMusic(ci,"ci")
+})
+
+document.getElementById("omreta").addEventListener("click", ()=> {
+    playMusic(omreta,"omreta")
+})
+
+document.getElementById("mitg").addEventListener("click", ()=> {
+    playMusic(mitg,"mitg")
+})
+
+document.getElementById("mia").addEventListener("click", ()=> {
+    playMusic(mia,"mia")
 })
 
 document.getElementById("survival").addEventListener("click", ()=> {
@@ -946,3 +974,30 @@ document.getElementById("mfour").addEventListener("click", ()=> {
     playMusic(mfour,"mfour")
 })
 
+document.getElementById("lookalive").addEventListener("click", ()=> {
+    playMusic(lookalive,"lookalive")
+})
+
+
+document.getElementById("di").addEventListener("click", ()=> {
+    playMusic(di,"di")
+})
+
+
+document.getElementById("signs").addEventListener("click", ()=> {
+    playMusic(signs,"signs")
+})
+
+document.getElementById("rh").addEventListener("click", ()=> {
+    playMusic(rh,"rh")
+})
+
+
+document.getElementById("chargedup").addEventListener("click", ()=> {
+    playMusic(chargedup,"chargedup")
+})
+
+
+document.getElementById("b2b").addEventListener("click", ()=> {
+    playMusic(b2b,"b2b")
+})
