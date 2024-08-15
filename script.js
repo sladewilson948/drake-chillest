@@ -10,6 +10,7 @@ const healing = "./songs/Gordo & Drake - Healing [Ultra Records].mp3"
 const hu = "./songs/08 HOT UPTOWN (feat. Drake).mp3"
 const ugly = "./songs/09 Uuugly.mp3"
 
+const tokab = "./songs/Drake - To Kill a Butterfly (Lyrics)  Kendrick Lamar Diss.mp3"
 const hpsix = "./songs/THE HEART PART 6 - DRAKE.mp3"
 const fm = "./songs/01 Family Matters.mp3"
 const pushups = "./songs/Push Ups.mp3"
@@ -308,6 +309,11 @@ document.getElementById("hu").addEventListener("click", ()=> {
 document.getElementById("ugly").addEventListener("click", ()=> {
     
     playMusic(ugly,"ugly")
+})
+
+document.getElementById("tokab").addEventListener("click", ()=> {
+    
+    playMusic(tokab,"tokab")
 })
 
 document.getElementById("hpsix").addEventListener("click", ()=> {
