@@ -197,6 +197,45 @@ const di = "./songs/Diplomatic Immunity.mp3"
 const signs = "./songs/Drake - Signs.mp3"
 
 
+const freesmoke = "./songs/Free Smoke.mp3"
+const nlt = "./songs/No Long Talk.mp3"
+const pf = "./songs/Passionfruit.mp3"
+const ji = "./songs/Jorja Interlude.mp3"
+const git = "./songs/Get It Together.mp3"
+const mr = "./songs/Madiba Riddim.mp3"
+const blem = "./songs/Blem.mp3"
+const fourtwo = "./songs/4422.mp3"
+const gyal = "./songs/Gyalchester.mp3"
+const skepta = "./songs/Skepta Interlude.mp3"
+const portland = "./songs/Portland.mp3"
+const sacrifices = "./songs/Sacrifices.mp3"
+const nis = "./songs/Nothing Into Somethings - Drake (Audio).mp3"
+const tfv = "./songs/Teenage Fever.mp3"
+const kmt = "./songs/KMT.mp3"
+const ly = "./songs/Lose You.mp3"
+const cher = "./songs/Can't Have Everything.mp3"
+const glow = "./songs/Glow.mp3"
+const swb = "./songs/Since Way Back.mp3"
+const fl = "./songs/Fake Love.mp3"
+const im = "./songs/Drake - Ice Melts ft. Young Thug.mp3"
+const dnd = "./songs/Do Not Disturb.mp3"
+const twobones = "./songs/Drake - Two Birds, One Stone.mp3"
+const sneakin = "./songs/Drake - Sneakin' (Ft. 21 Savage) (Audio).mp3"
+
+
+
+const dash = "./songs/Digital Dash.mp3"
+const bigrings = "./songs/Big Rings.mp3"
+const lftg = "./songs/Live From The Gutter.mp3"
+const diamonds = "./songs/Diamonds Dancing.mp3"
+const schlr = "./songs/Scholarships.mp3"
+const pb = "./songs/Plastic Bag.mp3"
+const plug = "./songs/I'm The Plug.mp3"
+const clo = "./songs/Change Locations.mp3"
+const jump = "./songs/Jumpman.mp3"
+const jersey = "./songs/Jersey.mp3"
+const thirty = "./songs/30 for 30 Freestyle.mp3"
+
 const b2b = "./songs/Drake - Back to Back (Lyrics).mp3"
 const chargedup = "./songs/Charged Up.mp3"
 const rh = "./songs/Drake - Right Hand.mp3"
@@ -999,9 +1038,154 @@ document.getElementById("signs").addEventListener("click", ()=> {
     playMusic(signs,"signs")
 })
 
+document.getElementById("freesmoke").addEventListener("click", ()=> {
+    playMusic(freesmoke,"freesmoke")
+})
+
+document.getElementById("nlt").addEventListener("click", ()=> {
+    playMusic(nlt,"nlt")
+})
+
+document.getElementById("pf").addEventListener("click", ()=> {
+    playMusic(pf,"pf")
+})
+
+document.getElementById("ji").addEventListener("click", ()=> {
+    playMusic(ji,"ji")
+})
+
+document.getElementById("git").addEventListener("click", ()=> {
+    playMusic(git,"git")
+})
+
+document.getElementById("mr").addEventListener("click", ()=> {
+    playMusic(mr,"mr")
+})
+
+document.getElementById("blem").addEventListener("click", ()=> {
+    playMusic(blem,"blem")
+})
+
+
+document.getElementById("fourtwo").addEventListener("click", ()=> {
+    playMusic(fourtwo,"fourtwo")
+})
+
+document.getElementById("gyal").addEventListener("click", ()=> {
+    playMusic(gyal,"gyal")
+})
+
+document.getElementById("skepta").addEventListener("click", ()=> {
+    playMusic(skepta,"skepta")
+})
+
+document.getElementById("portland").addEventListener("click", ()=> {
+    playMusic(portland,"portland")
+})
+
+document.getElementById("sacrifices").addEventListener("click", ()=> {
+    playMusic(sacrifices,"sacrifices")
+})
+
+document.getElementById("nis").addEventListener("click", ()=> {
+    playMusic(nis,"nis")
+})
+
+document.getElementById("tfv").addEventListener("click", ()=> {
+    playMusic(tfv,"tfv")
+})
+
+document.getElementById("kmt").addEventListener("click", ()=> {
+    playMusic(kmt,"kmt")
+})
+
+document.getElementById("ly").addEventListener("click", ()=> {
+    playMusic(ly,"ly")
+})
+
+document.getElementById("cher").addEventListener("click", ()=> {
+    playMusic(cher,"cher")
+})
+
+document.getElementById("glow").addEventListener("click", ()=> {
+    playMusic(glow,"glow")
+})
+
+document.getElementById("swb").addEventListener("click", ()=> {
+    playMusic(swb,"swb")
+})
+
+document.getElementById("fl").addEventListener("click", ()=> {
+    playMusic(fl,"fl")
+})
+
+document.getElementById("im").addEventListener("click", ()=> {
+    playMusic(im,"im")
+})
+
+document.getElementById("dnd").addEventListener("click", ()=> {
+    playMusic(dnd,"dnd")
+})
+
+document.getElementById("twobones").addEventListener("click", ()=> {
+    playMusic(twobones,"twobones")
+})
+
+document.getElementById("sneakin").addEventListener("click", ()=> {
+    playMusic(sneakin,"sneakin")
+})
+
+
+document.getElementById("dash").addEventListener("click", ()=> {
+    playMusic(dash,"dash")
+})
+
+document.getElementById("bigrings").addEventListener("click", ()=> {
+    playMusic(bigrings,"bigrings")
+})
+
+document.getElementById("lftg").addEventListener("click", ()=> {
+    playMusic(lftg,"lftg")
+})
+
+
+document.getElementById("diamonds").addEventListener("click", ()=> {
+    playMusic(diamonds,"diamonds")
+})
+
+document.getElementById("schlr").addEventListener("click", ()=> {
+    playMusic(schlr,"schlr")
+})
+
+document.getElementById("pb").addEventListener("click", ()=> {
+    playMusic(pb,"pb")
+})
+
+
+document.getElementById("plug").addEventListener("click", ()=> {
+    playMusic(plug,"plug")
+})
+
+document.getElementById("clo").addEventListener("click", ()=> {
+    playMusic(clo,"clo")
+})
+
+document.getElementById("jump").addEventListener("click", ()=> {
+    playMusic(jump,"jump")
+})
+
+document.getElementById("jersey").addEventListener("click", ()=> {
+    playMusic(jersey,"jersey")
+})
+
+document.getElementById("thirty").addEventListener("click", ()=> {
+    playMusic(thirty,"thirty")
+})
+
 document.getElementById("rh").addEventListener("click", ()=> {
     playMusic(rh,"rh")
 })
+
 
 
 document.getElementById("chargedup").addEventListener("click", ()=> {
