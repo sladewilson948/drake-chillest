@@ -34,6 +34,14 @@ body
     font-size: 30px;
 }
 
+.actions
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #button
 {
     font-size: 22px;
