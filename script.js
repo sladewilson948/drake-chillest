@@ -88,6 +88,8 @@ const ttb = "./songs/12 Tie That Binds.mp3"
 const liab = "./songs/13 Liability.mp3"
 const jc = "./songs/14 Jimmy Cooks (feat. 21 Savage).mp3"
 
+const cd = "./songs/Jack Harlow - Churchill Downs feat. Drake [Official Audio].mp3"
+
 const champ = "./songs/01 - Drake - Champagne Poetry.flac"
 const ph= "./songs/02 - Drake - Papis Home.flac"
 const gwg = "./songs/03 - Drake - Girls Want Girls.flac"
@@ -122,6 +124,8 @@ const tandt = "./songs/Popcaan  - TWIST & TURN (feat. Drake & PARTYNEXTDOOR) (Of
 const oyf = "./songs/Headie One & Drake - Only You Freestyle (Lyrics).mp3"
 const popstar = "./songs/DJ Khaled ft. Drake - POPSTAR (Lyrics).mp3"
 const greece = "./songs/DJ Khaled ft. Drake - GREECE (Official Visualizer).mp3"
+const wt = "./songs/Brent Faiyaz Ft Drake - Wasting Time (Audio).mp3"
+const ttm = "./songs/Talk To Me (feat. Drake).mp3"
 
 
 const dp = "./songs/01 Deep Pockets.mp3"
@@ -235,6 +239,23 @@ const clo = "./songs/Change Locations.mp3"
 const jump = "./songs/Jumpman.mp3"
 const jersey = "./songs/Jersey.mp3"
 const thirty = "./songs/30 for 30 Freestyle.mp3"
+
+const tl = "./songs/Tuscan Leather.mp3"
+const fur = "./songs/Furthest Thing.mp3"
+const sftb = "./songs/Started From The Bottom.mp3"
+const wtf = "./songs/Wu-Tang Forever.mp3"
+const ownit = "./songs/Own It.mp3"
+const wb = "./songs/Worst Behavior.mp3"
+const fromtime = "./songs/From Time.mp3"
+const howagh = "./songs/Hold On, We're Going Home.mp3"
+const connect = "./songs/Connect.mp3"
+const language = "./songs/The Language.mp3"
+const mycity = "./songs/305 To My City.mp3"
+const toomuch = "./songs/Too Much .mp3"
+const pmmtwo = "./songs/Pound Cake-Paris Morton Music 2.mp3"
+const ct = "./songs/Come Thru.mp3"
+const allme = "./songs/All Me.mp3"
+const motion = "./songs/The Motion.mp3"
 
 const b2b = "./songs/Drake - Back to Back (Lyrics).mp3"
 const chargedup = "./songs/Charged Up.mp3"
@@ -658,6 +679,10 @@ document.getElementById("jc").addEventListener("click", ()=> {
     playMusic(jc,"jc")
 })
 
+document.getElementById("cd").addEventListener("click", ()=> {
+    playMusic(cd,"cd")
+})
+
 document.getElementById("champ").addEventListener("click", ()=> {
     playMusic(champ,"champ")
 })
@@ -760,6 +785,12 @@ document.getElementById("popstar").addEventListener("click", ()=> {
 })
 document.getElementById("greece").addEventListener("click", ()=> {
     playMusic(greece,"greece")
+})
+document.getElementById("wt").addEventListener("click", ()=> {
+    playMusic(wt,"wt")
+})
+document.getElementById("ttm").addEventListener("click", ()=> {
+    playMusic(ttm,"ttm")
 })
 
 document.getElementById("dp").addEventListener("click", ()=> {
@@ -1182,10 +1213,59 @@ document.getElementById("thirty").addEventListener("click", ()=> {
     playMusic(thirty,"thirty")
 })
 
+document.getElementById("tl").addEventListener("click", ()=> {
+    playMusic(tl,"tl")
+})
+document.getElementById("fur").addEventListener("click", ()=> {
+    playMusic(fur,"fur")
+})
+document.getElementById("sftb").addEventListener("click", ()=> {
+    playMusic(sftb,"sftb")
+})
+document.getElementById("wtf").addEventListener("click", ()=> {
+    playMusic(wtf,"wtf")
+})
+document.getElementById("ownit").addEventListener("click", ()=> {
+    playMusic(ownit,"ownit")
+})
+document.getElementById("wb").addEventListener("click", ()=> {
+    playMusic(wb,"wb")
+})
+document.getElementById("fromtime").addEventListener("click", ()=> {
+    playMusic(fromtime,"fromtime")
+})
+document.getElementById("howagh").addEventListener("click", ()=> {
+    playMusic(howagh,"howagh")
+})
+document.getElementById("connect").addEventListener("click", ()=> {
+    playMusic(connect,"connect")
+})
+document.getElementById("language").addEventListener("click", ()=> {
+    playMusic(language,"language")
+})
+document.getElementById("mycity").addEventListener("click", ()=> {
+    playMusic(mycity,"mycity")
+})
+document.getElementById("toomuch").addEventListener("click", ()=> {
+    playMusic(toomuch,"toomuch")
+})
+document.getElementById("pmmtwo").addEventListener("click", ()=> {
+    playMusic(pmmtwo,"pmmtwo")
+})
+document.getElementById("ct").addEventListener("click", ()=> {
+    playMusic(ct,"ct")
+})
+document.getElementById("allme").addEventListener("click", ()=> {
+    playMusic(allme,"allme")
+})
+document.getElementById("motion").addEventListener("click", ()=> {
+    playMusic(motion,"motion")
+})
+
+
 document.getElementById("rh").addEventListener("click", ()=> {
     playMusic(rh,"rh")
 })
-
 
 
 document.getElementById("chargedup").addEventListener("click", ()=> {
