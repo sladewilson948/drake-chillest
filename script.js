@@ -260,6 +260,7 @@ const motion = "./songs/The Motion.mp3"
 const b2b = "./songs/Drake - Back to Back (Lyrics).mp3"
 const chargedup = "./songs/Charged Up.mp3"
 const rh = "./songs/Drake - Right Hand.mp3"
+const np = document.getElementById("now-playing")
 
 let prev = null
 
@@ -289,6 +290,280 @@ document.getElementById("button").addEventListener("click", ()=> {
 
 
 
+const list2 = [itsupp, 
+    bgr,
+    housekeeping,
+    sideways,  
+    healing,
+    hu,
+    ugly,
+    tokab,
+    hpsix,
+    fm,
+    pushups,
+    actii,
+    redbutton,
+    samb,
+    tsf,
+    wm,
+    ew,
+    ybmh,
+    vb,
+    amen,
+    cfy,
+    foh,
+    daylight,  
+    fps,
+    idgaf,
+    santa,
+    syo,
+    bp,
+    tob,
+    stw,
+    dap,
+    mo,
+    wwpd,
+    atp,
+    eightAC,
+    bbl,
+    gently,
+    rbd,
+    aln,
+    afh,
+    po,
+    meltdown,  
+    otr,
+    wty,
+    sar,
+    wcd,
+    rf,
+    md,
+    onbs,
+    bob,
+    pr,
+    say,
+    his,
+    tt,
+    cl,
+    pandm,
+    bb,
+    mos,
+    jsp,
+    mm,
+    glenwood,
+    igifm,
+    sa,
+    intro,
+    fb,
+    tgg,
+    crr,
+    akp, 
+    cmn
+    ,sticky
+    ,mass
+    ,fbd
+    ,overdrive
+    ,dh
+    ,ttb
+    ,liab
+    ,jc
+    ,cd
+    ,champ
+    ,ph
+    ,gwg
+    ,itb
+    ,loveall
+    ,ft
+    ,wts
+    ,tsu
+    ,ntd
+    ,pd
+    ,yh
+    ,nfid
+    ,kt
+    ,bridal
+    ,rmm
+    ,fountains
+    ,gab
+    ,yolt
+    ,imy
+    ,fg
+    ,tr
+    ,ovt
+    ,sg
+    ,wn
+    ,wan
+    ,lpf
+    ,gr
+    ,bkf
+    ,yms
+    ,lcl
+    ,tandt
+    ,oyf
+    ,popstar
+    ,greece
+    ,wt
+    ,ttm
+    ,dp
+    ,wtsw
+    ,cf
+    ,nyt
+    ,ts
+    ,desires
+    ,tf
+    ,landed
+    ,D4L
+    ,pain
+    ,loss
+    ,ffwl
+    ,demons
+    ,war
+    ,loyal
+    ,lig
+    ,ng
+    ,bbb
+    ,dmcb
+    ,tm
+    ,han
+    ,ti
+    ,dine
+    ,dd  
+    ,fourpm
+    ,fivepm
+    ,igl
+    ,ms
+    ,jf
+    ,cp
+    ,fs
+    ,hotm
+    ,glb
+    ,pmm
+    ,ci
+    ,omreta
+    ,mitg
+    ,mia
+    ,survival
+    ,nonstop
+    ,elevate
+    ,emotionless
+    ,godsp
+    ,imupset
+    ,eightten
+    ,mt
+    ,ctaj
+    ,sr
+    ,tu
+    ,itm
+    ,peak
+    ,summergames
+    ,jaded
+    ,nfw
+    ,finn
+    ,rhb
+    ,thyf
+    ,bluetint
+    ,imf
+    ,dontmatter
+    ,ad
+    ,ff
+    ,mfour
+    ,lookalive
+    ,di
+    ,signs
+    ,freesmoke 
+    ,nlt
+    ,pf
+    ,ji
+    ,git
+    ,mr
+    ,blem
+    ,fourtwo
+    ,gyal  
+    ,skepta
+    ,portland
+    ,sacrifices
+    ,nis
+    ,tfv
+    ,kmt
+    ,cher
+    ,glow
+    ,fl
+    ,im
+    ,dnd
+    ,twobones
+    ,sneakin
+    ,dash
+    ,bigrings
+    ,lftg
+    ,diamonds
+    ,schlr
+    ,pb
+    ,plug
+    ,cl
+    ,jump
+    ,jersey
+    ,thirty
+    ,tl
+    ,fur
+    ,sftb
+    ,wtf
+    ,ownit
+    ,wb
+    ,fromtime
+    ,howagh
+    ,connect
+    ,language
+    ,mycity
+    ,toomuch
+    ,pmmtwo
+    ,ct
+    ,allme
+    ,motion
+    ,b2b
+    ,chargedup 
+    ,rh]
+
+
+let idx = getRandomIndex()
+
+function getRandomIndex()
+{
+    return Math.floor(Math.random()*list2.length)
+}
+
+function playSong()
+    {
+        if(prev)
+        {
+            prev.pause()
+            prev.currentTime = 0
+        }
+        const newSrc = new Audio(list2[idx])
+        prev = newSrc
+        newSrc.play()
+        newSrc.addEventListener("ended", playNext)
+        np.style.opacity = 0;
+        setTimeout(() => {
+            np.textContent = `Now Playing....${list2[idx].toString()}`;
+            np.style.color = "white"; // Change color (this will also transition)
+            np.style.opacity = 1; // Fade back in
+        }, 500);
+    }
+    
+
+document.getElementById("random").addEventListener("click", playSong)
+
+function playNext()
+{
+    idx = getRandomIndex()
+    playSong()
+    
+}
+
+
+
+
+
 
 window.addEventListener("scroll", ()=> {
     if(scrollY>window.length)
@@ -300,7 +575,7 @@ window.addEventListener("scroll", ()=> {
     }
 })
 
-const np = document.getElementById("now-playing")
+
 
 np.textContent = ""
 document.getElementById("go-up").addEventListener("click", ()=> {
@@ -1276,3 +1551,6 @@ document.getElementById("chargedup").addEventListener("click", ()=> {
 document.getElementById("b2b").addEventListener("click", ()=> {
     playMusic(b2b,"b2b")
 })
+
+
+

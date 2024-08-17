@@ -49,6 +49,20 @@ body
     cursor: pointer;
 }
 
+#random
+{
+    font-size: 22px;
+    background-color: rgb(245, 189, 8);
+    font-family: "Outfit", sans-serif;
+    border-radius: 5px;
+    width: 102px;
+    height: 33px;
+    
+}
+
+#random:hover{
+    cursor: pointer;
+}
 .mood
 {
     font-family: "Outfit", sans-serif;
@@ -180,6 +194,12 @@ body
     }
 
     #button
+    {
+        font-size: 14px;
+        width: 80px;
+
+    }
+    #random
     {
         font-size: 14px;
         width: 80px;
