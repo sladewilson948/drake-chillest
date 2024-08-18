@@ -14,6 +14,23 @@ const tokab = "./songs/Drake - To Kill a Butterfly (Lyrics)  Kendrick Lamar Diss
 const hpsix = "./songs/THE HEART PART 6 - DRAKE.mp3"
 const fm = "./songs/01 Family Matters.mp3"
 const pushups = "./songs/Push Ups.mp3"
+
+const needle = "./songs/Nicki Minaj - Needle (Lyrics) Feat. Drake.mp3"
+const parade = "./songs/Young Thug - Parade on Cleveland (feat. Drake) [Official Lyric Video].mp3"
+const oyw = "./songs/Young Thug - Oh U Went (feat. Drake) [Official Lyric Video].mp3"
+const wait = "./songs/Future - WAIT FOR U (Official Audio) ft. Drake, Tems.mp3"
+const nosecret = "./songs/DJ Khaled - NO SECRET (Official Audio) ft. Drake.mp3"
+const forfree = "./songs/DJ Khaled ft  Drake - For Free (Original  Audio) HQ.mp3"
+const ppower = "./songs/Gunna - P power (feat. Drake) [Official Audio].mp3"
+const salign = "./songs/Majid Jordan with Drake - Stars Align (Official Lyric Video).mp3"
+const mrn = "./songs/21 Savage x Metro Boomin ft Drake - Mr. Right Now (Official Audio).mp3"
+const bubbly = "./songs/Young Thug - Bubbly (with Drake & Travis Scott) [Official Audio].mp3"
+const solid = "./songs/Young Stoner Life, Young Thug & Gunna - Solid (feat. Drake) [Official Audio].mp3"
+const imon = "./songs/I'm On One - Drake Ft Lil Wayne, Rick Ross (Lyrics).mp3"
+const imone = "./songs/Future - I'M ON ONE (Official Audio) ft. Drake.mp3"
+const ourway = "./songs/Migos Feat. Drake - Having Our Way (Official Audio).mp3"
+const mode = "./songs/Travis Scott - SICKO MODE (Audio).mp3"
+
 const actii = "./songs/4Batz - act ii- date @ 8 (remix) feat. Drake.mp3"
 
 const redbutton = "./songs/2-01 Red Button.mp3"
@@ -525,7 +542,22 @@ const list2 = [[itsupp,"itsupp"],
     ,[motion,"motion"]
     ,[b2b,"b2b"]
     ,[chargedup,"chargedup"] 
-    ,[rh,"rh"]]
+    ,[rh,"rh"]
+    ,[needle,"needle"]
+    ,[parade,"parade"]
+    ,[oyw,"oyw"]
+    ,[wait,"wait"]
+    ,[nosecret,"nosecret"]
+    ,[forfree,"forfree"]
+    ,[ppower,"ppower"]
+    ,[salign,"salign"]
+    ,[mrn,"mrn"]
+    ,[bubbly,"bubbly"]
+    ,[solid,"solid"]
+    ,[imon,"imon"]
+    ,[imone,"imone"]
+    ,[ourway,"ourway"]
+    ,[mode,"mode"]]
 
 
 let idx = getRandomIndex()
@@ -1557,6 +1589,71 @@ document.getElementById("chargedup").addEventListener("click", ()=> {
 document.getElementById("b2b").addEventListener("click", ()=> {
     playMusic(b2b,"b2b")
 })
+
+document.getElementById("needle").addEventListener("click", ()=> {
+    playMusic(needle,"needle")
+})
+
+document.getElementById("parade").addEventListener("click", ()=> {
+    playMusic(parade,"parade")
+})
+
+document.getElementById("oyw").addEventListener("click", ()=> {
+    playMusic(oyw,"oyw")
+})
+
+document.getElementById("wait").addEventListener("click", ()=> {
+    playMusic(wait,"wait")
+})
+
+document.getElementById("nosecret").addEventListener("click", ()=> {
+    playMusic(nosecret,"nosecret")
+})
+
+document.getElementById("forfree").addEventListener("click", ()=> {
+    playMusic(forfree,"forfree")
+})
+
+document.getElementById("ppower").addEventListener("click", ()=> {
+    playMusic(ppower,"ppower")
+})
+
+document.getElementById("salign").addEventListener("click", ()=> {
+    playMusic(salign,"salign")
+})
+
+document.getElementById("mrn").addEventListener("click", ()=> {
+    playMusic(mrn,"mrn")
+})
+
+
+document.getElementById("bubbly").addEventListener("click", ()=> {
+    playMusic(bubbly,"bubbly")
+})
+
+document.getElementById("solid").addEventListener("click", ()=> {
+    playMusic(solid,"solid")
+})
+
+document.getElementById("imon").addEventListener("click", ()=> {
+    playMusic(imon,"imon")
+})
+
+document.getElementById("imone").addEventListener("click", ()=> {
+    playMusic(imone,"imone")
+})
+
+document.getElementById("ourway").addEventListener("click", ()=> {
+    playMusic(ourway,"ourway")
+})
+
+document.getElementById("mode").addEventListener("click", ()=> {
+    playMusic(mode,"mode")
+})
+
+
+
+
 
 
 
