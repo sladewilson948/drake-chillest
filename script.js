@@ -30,6 +30,25 @@ const imon = "./songs/I'm On One - Drake Ft Lil Wayne, Rick Ross (Lyrics).mp3"
 const imone = "./songs/Future - I'M ON ONE (Official Audio) ft. Drake.mp3"
 const ourway = "./songs/Migos Feat. Drake - Having Our Way (Official Audio).mp3"
 const mode = "./songs/Travis Scott - SICKO MODE (Audio).mp3"
+const gnl = "./songs/Summer Walker - Girls Need Love Remix (with Drake).mp3"
+const ovh = "./songs/Over Here (feat. Drake).mp3"
+const dnf = "./songs/Preme - DnF (Audio) ft. Drake, Future.mp3"
+const wyat = "./songs/Future - Where Ya At (Audio) ft. Drake.mp3"
+const utt = "./songs/Used to This.mp3"
+const both = "./songs/Gucci Mane - Both Remix feat. Drake & Lil Wayne [Official Audio].mp3"
+const rico = "./songs/Meek Mill - R.I.C.O. Feat. Drake (Official Audio).mp3"
+const recog = "./songs/PartyNextDoor Recognize (Feat. Drake).mp3"
+const bm = "./songs/Believe Me.mp3"
+const stayschemin = "./songs/Stay Schemin.mp3"
+const betrayal = "./songs/Trippie Redd  Betrayal Ft. Drake (Official Visualizer).mp3"
+const goingbad = "./songs/Meek Mill - Going Bad Ft. Drake (Championships).mp3"
+const yi = "./songs/Drake & Lil Baby - Yes Indeed (Lyrics).mp3"
+const witi = "./songs/Migos - Walk It Talk It ft. Drake (Audio).mp3"
+const work = "./songs/Rihanna - Work ft. Drake.mp3"
+const wdyl = "./songs/YG - Who Do You Love- ft. Drake (Official Audio) (Explicit).mp3"
+const nr = "./songs/Lil Baby, Gunna, Drake - Never Recover (Official Audio).mp3"
+const fts = "./songs/Quavo - FLIP THE SWITCH (Feat. Drake).mp3"
+const ot = "./songs/Bryson Tiller - Outta Time (Lyrics) ft. Drake.mp3"
 
 const actii = "./songs/4Batz - act ii- date @ 8 (remix) feat. Drake.mp3"
 
@@ -557,7 +576,24 @@ const list2 = [[itsupp,"itsupp"],
     ,[imon,"imon"]
     ,[imone,"imone"]
     ,[ourway,"ourway"]
-    ,[mode,"mode"]]
+    ,[mode,"mode"]
+    ,[gnl,"gnl"]
+    ,[ovh,"ovh"]
+    ,[dnf,"dnf"]
+    ,[wyat,"wyat"]
+    ,[rico,"rico"]
+    ,[recog,"recog"]
+    ,[bm,"bm"]
+    ,[stayschemin,"stayschemin"]
+    ,[betrayal,"betrayal"]
+    ,[goingbad,"goingbad"]
+    ,[yi,"yi"]
+    ,[witi,"witi"]
+    ,[work,"work"]
+    ,[wdyl,"wdyl"]
+    ,[nr,"nr"]
+    ,[fts,"fts"]
+    ,[ot,"ot"]]
 
 
 let idx = getRandomIndex()
@@ -1650,6 +1686,85 @@ document.getElementById("ourway").addEventListener("click", ()=> {
 document.getElementById("mode").addEventListener("click", ()=> {
     playMusic(mode,"mode")
 })
+
+document.getElementById("gnl").addEventListener("click", ()=> {
+    playMusic(gnl,"gnl")
+})
+
+document.getElementById("ovh").addEventListener("click", ()=> {
+    playMusic(ovh,"ovh")
+})
+
+document.getElementById("dnf").addEventListener("click", ()=> {
+    playMusic(dnf,"dnf")
+})
+
+document.getElementById("wyat").addEventListener("click", ()=> {
+    playMusic(wyat,"wyat")
+})
+
+document.getElementById("utt").addEventListener("click", ()=> {
+    playMusic(utt,"utt")
+})
+
+document.getElementById("both").addEventListener("click", ()=> {
+    playMusic(both,"both")
+})
+
+document.getElementById("rico").addEventListener("click", ()=> {
+    playMusic(rico,"rico")
+})
+
+document.getElementById("recog").addEventListener("click", ()=> {
+    playMusic(recog,"recog")
+})
+
+document.getElementById("bm").addEventListener("click", ()=> {
+    playMusic(bm,"bm")
+})
+
+document.getElementById("stayschemin").addEventListener("click", ()=> {
+    playMusic(stayschemin,"stayschemin")
+})
+
+document.getElementById("betrayal").addEventListener("click", ()=> {
+    playMusic(betrayal,"betrayal")
+})
+
+document.getElementById("goingbad").addEventListener("click", ()=> {
+    playMusic(goingbad,"goingbad")
+})
+
+document.getElementById("yi").addEventListener("click", ()=> {
+    playMusic(yi,"yi")
+})
+
+document.getElementById("witi").addEventListener("click", ()=> {
+    playMusic(witi,"witi")
+})
+
+document.getElementById("work").addEventListener("click", ()=> {
+    playMusic(work,"work")
+})
+
+document.getElementById("wdyl").addEventListener("click", ()=> {
+    playMusic(wdyl,"wdyl")
+})
+
+document.getElementById("nr").addEventListener("click", ()=> {
+    playMusic(nr,"nr")
+})
+
+document.getElementById("fts").addEventListener("click", ()=> {
+    playMusic(fts,"fts")
+})
+
+document.getElementById("ot").addEventListener("click", ()=> {
+    playMusic(ot,"ot")
+})
+
+
+
 
 
 
