@@ -300,6 +300,8 @@ const np = document.getElementById("now-playing")
 const playBar = document.getElementById("playing-song")
 console.log(playBar)
 playBar.style.display = "none"
+const art = document.getElementById("songart")
+
 
 
 let prev = null
@@ -617,7 +619,10 @@ function playSong()
         newSrc.addEventListener("ended", playNext)
         np.style.opacity = 0;
         setTimeout(() => {
-            np.textContent = `Now Playing....${document.getElementById(list2[idx][1]).textContent}`;
+            np.textContent = `${document.getElementById(list2[idx][1]).textContent}`;
+            const new_art = document.getElementById(list2[idx][1]).style.backgroundImage.slice(5,-2)
+            console.log(new_art)
+            art.src = new_art
             np.style.color = "white"; // Change color (this will also transition)
             np.style.opacity = 1; // Fade back in
         }, 500);
@@ -671,7 +676,10 @@ function playMusic(src, elementId)
     np.style.opacity = 0;
 
     setTimeout(() => {
-        np.textContent = `Now Playing....${document.getElementById(elementId).textContent}`;
+        np.textContent = `${document.getElementById(elementId).textContent}`;
+        const new_art = document.getElementById(elementId).style.backgroundImage.slice(5,-2)
+        console.log(new_art)
+        art.src = new_art
         np.style.color = "white"; // Change color (this will also transition)
         np.style.opacity = 1; // Fade back in
     }, 500);

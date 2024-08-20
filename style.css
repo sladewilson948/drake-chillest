@@ -48,13 +48,20 @@ body
     top: 0;
     display: none;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    height: 70px;
+    height: 100px;
     padding-left: 23%;
     padding-right: 23%;
     background-color: rgb(24, 23, 23);
     z-index: 1000;
+}
+
+#songart
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
 }
 
 #button
@@ -217,20 +224,29 @@ body
         padding-right: 10%;
     }
 
+    #songart
+    {
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
+    }
+
     #now-playing
     {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     #button
     {
         font-size: 14px;
+        height: 25px;
         width: 80px;
 
     }
     #random
     {
         font-size: 14px;
+        height: 25px;
         width: 80px;
 
     }
