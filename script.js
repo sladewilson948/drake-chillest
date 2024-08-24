@@ -5,7 +5,7 @@ let paused = true
 
 const noface = "./songs/Drake No Face Official Song New Release.mp3"
 const sod = "./songs/Drake - Super Soak (SOD) (Official Audio).mp3"
-const itsupp = "./songs/01 It_s Up.mp3"
+const itsup = "./songs/01 It_s Up.mp3"
 const bgr = "./songs/02 Blue Green Red.mp3"
 const housekeeping = "./songs/03 Housekeeping Knows (feat. Latto).mp3"
 
@@ -303,7 +303,6 @@ const chargedup = "./songs/Charged Up.mp3"
 const rh = "./songs/Drake - Right Hand.mp3"
 const np = document.getElementById("now-playing")
 const playBar = document.getElementById("playing-song")
-console.log(playBar)
 playBar.style.display = "none"
 const art = document.getElementById("songart")
 const cr = "./songs/DRAKE - CIRCADIAN RHYTHM Unreleased.mp3"
@@ -312,35 +311,18 @@ const cr = "./songs/DRAKE - CIRCADIAN RHYTHM Unreleased.mp3"
 
 let prev = null
 let curr = null
-
-
-
-document.getElementById("button").addEventListener("click", ()=> {
-
-    let mood = document.getElementById("mood").value
-    let gridItems = document.getElementsByClassName("grid-itme")
-
-    Array.from(gridItems).forEach(x=> {
-        if(mood==="all")
-        {
-            x.style.display = "block"
-        }
-        else if(x.classList.contains(mood))
-        {
-            x.style.display = "block"
-        }
-        
-        else{
-            x.style.display = "none"
-        }
-    })
-})
+let idx2 = 0
+let seqflag = false
 
 
 
 
-const list2 = [[cr,"cr"],
-    [itsupp,"itsupp"], 
+
+const list2 = [
+    [noface,"noface"],
+    [sod,"sod"],
+    [cr,"cr"],
+    [itsup,"itsup"], 
     [bgr,"bgr"],
     [housekeeping,"housekeeping"],
     [sideways,"sideways"],  
@@ -604,8 +586,7 @@ const list2 = [[cr,"cr"],
     ,[nr,"nr"]
     ,[fts,"fts"]
     ,[ot,"ot"]
-    ,[sod,"sod"]
-    ,[noface,"noface"]]
+    ]
 
 
 let idx = getRandomIndex()
@@ -655,12 +636,15 @@ function playSong()
     }
     
 
-document.getElementById("random").addEventListener("click", playSong)
+document.getElementById("random").addEventListener("click", playNext)
 
 function playNext()
 {
-    idx = getRandomIndex()
-    playSong()
+        document.getElementById("pausebutton").textContent = "Pause"
+        idx = getRandomIndex()
+        playSong()
+
+    
     
 }
 
@@ -729,7 +713,7 @@ document.getElementById("cr").addEventListener("click", ()=> {
 
 
 document.getElementById("itsup").addEventListener("click", ()=> {
-        playMusic(itsupp,"itsup")
+        playMusic(itsup,"itsup")
 })
 
 
