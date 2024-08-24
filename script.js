@@ -1,5 +1,9 @@
 
 let flag = true
+
+
+const noface = "./songs/Drake No Face Official Song New Release.mp3"
+const sod = "./songs/Drake - Super Soak (SOD) (Official Audio).mp3"
 const itsupp = "./songs/01 It_s Up.mp3"
 const bgr = "./songs/02 Blue Green Red.mp3"
 const housekeeping = "./songs/03 Housekeeping Knows (feat. Latto).mp3"
@@ -301,6 +305,7 @@ const playBar = document.getElementById("playing-song")
 console.log(playBar)
 playBar.style.display = "none"
 const art = document.getElementById("songart")
+const cr = "./songs/DRAKE - CIRCADIAN RHYTHM Unreleased.mp3"
 
 
 
@@ -332,7 +337,8 @@ document.getElementById("button").addEventListener("click", ()=> {
 
 
 
-const list2 = [[itsupp,"itsupp"], 
+const list2 = [[cr,"cr"],
+    [itsupp,"itsupp"], 
     [bgr,"bgr"],
     [housekeeping,"housekeeping"],
     [sideways,"sideways"],  
@@ -595,7 +601,9 @@ const list2 = [[itsupp,"itsupp"],
     ,[wdyl,"wdyl"]
     ,[nr,"nr"]
     ,[fts,"fts"]
-    ,[ot,"ot"]]
+    ,[ot,"ot"]
+    ,[sod,"sod"]
+    ,[noface,"noface"]]
 
 
 let idx = getRandomIndex()
@@ -685,11 +693,17 @@ function playMusic(src, elementId)
     }, 500);
 }
 
+document.getElementById("noface").addEventListener("click", ()=> {
+    playMusic(noface,"noface")
+})
 
+document.getElementById("sod").addEventListener("click", ()=> {
+    playMusic(sod,"sod")
+})
 
-
-
-
+document.getElementById("cr").addEventListener("click", ()=> {
+    playMusic(cr,"cr")
+})
 
 
 
