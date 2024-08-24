@@ -1,5 +1,6 @@
 
 let flag = true
+let paused = true
 
 
 const noface = "./songs/Drake No Face Official Song New Release.mp3"
@@ -310,6 +311,7 @@ const cr = "./songs/DRAKE - CIRCADIAN RHYTHM Unreleased.mp3"
 
 
 let prev = null
+let curr = null
 
 
 
@@ -608,6 +610,21 @@ const list2 = [[cr,"cr"],
 
 let idx = getRandomIndex()
 
+function pauseMusic()
+{
+    if(paused)
+    {   
+        document.getElementById("pausebutton").textContent = "Play"
+        curr.pause()
+        paused = false
+    }
+    else{
+        document.getElementById("pausebutton").textContent = "Pause"
+        curr.play()
+        paused = true
+    }
+}
+
 function getRandomIndex()
 {
     return Math.floor(Math.random()*list2.length)
@@ -622,6 +639,7 @@ function playSong()
         }
         playBar.style.display = "flex"
         const newSrc = new Audio(list2[idx][0])
+        curr = newSrc
         prev = newSrc
         newSrc.play()
         newSrc.addEventListener("ended", playNext)
@@ -673,6 +691,8 @@ document.getElementById("go-up").addEventListener("click", ()=> {
 
 function playMusic(src, elementId)
 {
+    document.getElementById("pausebutton").textContent = "Pause"
+    paused = true
     if (prev) {
         prev.pause();
         prev.currentTime = 0;
@@ -681,6 +701,7 @@ function playMusic(src, elementId)
     currentAudio = new Audio(src); // Create the Audio object only when needed
     currentAudio.play();
     prev = currentAudio
+    curr = currentAudio
     np.style.opacity = 0;
 
     setTimeout(() => {

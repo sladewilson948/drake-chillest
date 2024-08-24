@@ -26,7 +26,7 @@ body
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    font-family: "Cinzel Decorative", serif;
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
@@ -87,6 +87,22 @@ body
 #button:hover{
     cursor: pointer;
 }
+
+#pausebutton
+{
+    font-size: 22px;
+    background-color: rgb(245, 189, 8);
+    font-family: "Outfit", sans-serif;
+    border-radius: 5px;
+    width: 102px;
+    height: 33px;
+    
+}
+
+#pausebutton:hover{
+    cursor: pointer;
+}
+
 
 #random
 {
@@ -164,7 +180,7 @@ body
     justify-content: center;
     padding: 10px;
     font-size: 30px;
-    font-family: "Cinzel Decorative", serif;
+    font-family: "Outfit", sans-serif;
     font-weight: 700;
     font-style: normal;
     transition: opacity 0.3s ease-in;
@@ -242,7 +258,7 @@ body
 
     #now-playing
     {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     #button
