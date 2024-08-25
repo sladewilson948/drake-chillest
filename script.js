@@ -333,6 +333,40 @@ const list2 = [
     [hpsix,"hpsix"],
     [fm,"fm"],
     [pushups,"pushups"],
+    [needle,"needle"]
+    ,[parade,"parade"]
+    ,[oyw,"oyw"]
+    ,[wait,"wait"]
+    ,[imone,"imone"]
+    ,[nosecret,"nosecret"]
+    ,[forfree,"forfree"]
+    ,[ppower,"ppower"]
+    ,[salign,"salign"]
+    ,[mrn,"mrn"]
+    ,[bubbly,"bubbly"]
+    ,[solid,"solid"]
+    ,[imon,"imon"]
+    ,[ourway,"ourway"]
+    ,[mode,"mode"]
+    ,[gnl,"gnl"]
+    ,[ovh,"ovh"]
+    ,[dnf,"dnf"]
+    ,[wyat,"wyat"]
+    ,[utt,"utt"]
+    ,[both,"both"]
+    ,[rico,"rico"]
+    ,[recog,"recog"]
+    ,[bm,"bm"]
+    ,[stayschemin,"stayschemin"]
+    ,[betrayal,"betrayal"]
+    ,[goingbad,"goingbad"]
+    ,[yi,"yi"]
+    ,[witi,"witi"]
+    ,[work,"work"]
+    ,[wdyl,"wdyl"]
+    ,[nr,"nr"]
+    ,[fts,"fts"]
+    ,[ot,"ot"],
     [actii,"actii"],
     [redbutton,"redbutton"],
     [samb,"samb"],
@@ -531,7 +565,6 @@ const list2 = [
     ,[schlr,"schlr"]
     ,[pb,"pb"]
     ,[plug,"plug"]
-    ,[cl,"cl"]
     ,[jump,"jump"]
     ,[jersey,"jersey"]
     ,[thirty,"thirty"]
@@ -554,42 +587,46 @@ const list2 = [
     ,[b2b,"b2b"]
     ,[chargedup,"chargedup"] 
     ,[rh,"rh"]
-    ,[needle,"needle"]
-    ,[parade,"parade"]
-    ,[oyw,"oyw"]
-    ,[wait,"wait"]
-    ,[nosecret,"nosecret"]
-    ,[forfree,"forfree"]
-    ,[ppower,"ppower"]
-    ,[salign,"salign"]
-    ,[mrn,"mrn"]
-    ,[bubbly,"bubbly"]
-    ,[solid,"solid"]
-    ,[imon,"imon"]
-    ,[imone,"imone"]
-    ,[ourway,"ourway"]
-    ,[mode,"mode"]
-    ,[gnl,"gnl"]
-    ,[ovh,"ovh"]
-    ,[dnf,"dnf"]
-    ,[wyat,"wyat"]
-    ,[rico,"rico"]
-    ,[recog,"recog"]
-    ,[bm,"bm"]
-    ,[stayschemin,"stayschemin"]
-    ,[betrayal,"betrayal"]
-    ,[goingbad,"goingbad"]
-    ,[yi,"yi"]
-    ,[witi,"witi"]
-    ,[work,"work"]
-    ,[wdyl,"wdyl"]
-    ,[nr,"nr"]
-    ,[fts,"fts"]
-    ,[ot,"ot"]
+    
     ]
 
 
 let idx = getRandomIndex()
+
+document.getElementById("button").addEventListener("click", playSequential)
+
+
+function playSequential()
+{
+    seqflag = true
+    if(prev)
+        {
+            prev.pause()
+            prev.currentTime = 0
+        }
+        playBar.style.display = "flex"
+        const newSrc = new Audio(list2[idx2][0])
+        curr = newSrc
+        prev = newSrc
+        newSrc.play()
+        newSrc.addEventListener("ended", playSequential)
+        np.style.opacity = 0;
+        setTimeout(() => {
+            console.log(idx2)
+            np.textContent = `${document.getElementById(list2[idx2-1][1]).textContent}`;
+            const new_art = document.getElementById(list2[idx2-1][1]).style.backgroundImage.slice(5,-2)
+            console.log(new_art)
+            art.src = new_art
+            np.style.color = "white"; // Change color (this will also transition)
+            np.style.opacity = 1; // Fade back in
+        }, 500);
+        updateIndex()
+}
+
+function updateIndex()
+{
+    idx2+=1
+}
 
 function pauseMusic()
 {
@@ -640,9 +677,17 @@ document.getElementById("random").addEventListener("click", playNext)
 
 function playNext()
 {
+    if(seqflag)
+        {
+            // console.log("We are in this block, sequnetial play")
+            playSequential()
+        }
+    else{
         document.getElementById("pausebutton").textContent = "Pause"
         idx = getRandomIndex()
         playSong()
+    }    
+    
 
     
     
