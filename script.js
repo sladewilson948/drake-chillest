@@ -303,11 +303,51 @@ const chargedup = "./songs/Charged Up.mp3"
 const rh = "./songs/Drake - Right Hand.mp3"
 const np = document.getElementById("now-playing")
 const playBar = document.getElementById("playing-song")
-playBar.style.display = "none"
+
 const art = document.getElementById("songart")
 const cr = "./songs/DRAKE - CIRCADIAN RHYTHM Unreleased.mp3"
+const ktfc = "./songs/Drake - Keep the Family Close.mp3"
+const nine = "./songs/Drake - 9.mp3"
+const uwme = "./songs/Drake - U With Me-.mp3"
+const fnw = "./songs/Drake - Feel No Ways.mp3"
+const hype = "./songs/Drake - Hype.mp3"
+const wrf = "./songs/Drake - Weston Road Flows.mp3"
+const redemp = "./songs/Drake - Redemption.mp3"
+const withyou = "./songs/Drake - With You ft. PARTYNEXTDOOR.mp3"
+const faithful = "./songs/Drake - Faithful ft. Pimp C & dvsn.mp3"
+const stillhere = "./songs/Drake - Still Here.mp3"
+const controlla = "./songs/Drake - Controlla.mp3"
+const onedance = "./songs/One Dance (feat. Wizkid & Kayla) - Drake.mp3"
+const grammys = "./songs/Drake - Grammys ft. Future.mp3"
+const childsplay = "./songs/Drake - Childs Play.mp3"
+const popstyle = "./songs/Drake - Pop Style copy.mp3"
+const toogood = "./songs/Drake - Too Good ft. Rihanna.mp3"
+const soint = "./songs/Summers Over Interlude - EXTENDED CUT.mp3"
+const fandd = "./songs/Drake - Fire & Desire.mp3"
+const views = "./songs/Drake - Views (Audio).mp3"
+const hotline = "./songs/Drake- Hotline Bling (Official Audio) copy.mp3"
+const omdb = "./songs/Over My Dead Body.mp3"
+const sfm = "./songs/Shot For Me.mp3"
+const headlines = "./songs/Drake   Headlines Explicit HD.mp3"
+const crewlove = "./songs/Crew Love.mp3"
+const tc = "./songs/Take Care.mp3"
+const marvinsroom = "./songs/Marvins Room.mp3"
+const bai = "./songs/Buried Alive Interlude.mp3"
+const ugk = "./songs/Under Ground Kings.mp3"
+const wbf = "./songs/We'll Be Fine.mp3"
+const mmp = "./songs/Make Me Proud.mp3"
+const lk = "./songs/Lord Knows.mp3"
+const cameras = "./songs/Cameras  Good Ones Go Interlude.mp3"
+const doing = "./songs/Doing It Wrong.mp3"
+const trh = "./songs/The Real Her.mp3"
+const lwyd = "./songs/Look What You've Done.mp3"
+const hlyfr = "./songs/Drake - HYFR (Hell Ya Fucking Right) (Explicit) ft. Lil Wayne.mp3"
+const practice = "./songs/Practice.mp3"
+const ride = "./songs/The Ride.mp3"
+const moto = "./songs/Drake - The Motto (feat. Lil Wayne) [Bonus Track] (Explicit).mp3"
 
 
+playBar.style.display = "none"
 
 let prev = null
 let curr = null
@@ -558,6 +598,45 @@ const list2 = [
     ,[dnd,"dnd"]
     ,[twobones,"twobones"]
     ,[sneakin,"sneakin"]
+    ,[ktfc,"ktfc"]
+    ,[nine,"nine"]
+    ,[uwme,"uwme"]
+    ,[fnw,"fnw"]
+    ,[hype,"hype"]
+    ,[wrf,"wrf"]
+    ,[redemp,"redemp"]
+    ,[withyou,"withyou"]
+    ,[faithful,"faithful"]
+    ,[stillhere,"stillhere"]
+    ,[controlla,"controlla"]
+    ,[onedance,"onedance"]
+    ,[grammys,"grammys"]
+    ,[childsplay,"childsplay"]
+    ,[popstyle,"popstyle"]
+    ,[toogood,"toogood"]
+    ,[soint,"soint"]
+    ,[fandd,"fandd"]
+    ,[views,"views"]
+    ,[hotline,"hotline"]
+    ,[omdb,"omdb"]
+    ,[sfm,"sfm"]
+    ,[headlines,"headlines"]
+    ,[crewlove,"crewlove"]
+    ,[tc,"tc"]
+    ,[marvinsroom,"marvinsroom"]
+    ,[bai,"bai"]
+    ,[ugk,"ugk"]
+    ,[wbf,"wbf"]
+    ,[mmp,"mmp"]
+    ,[lk,"lk"]
+    ,[cameras,"cameras"]
+    ,[doing,"doing"]
+    ,[trh,"trh"]
+    ,[lwyd,"lwyd"]
+    ,[hlyfr,"hlyfr"]
+    ,[practice,"practice"]
+    ,[ride,"ride"]
+    ,[moto,"moto"]
     ,[dash,"dash"]
     ,[bigrings,"bigrings"]
     ,[lftg,"lftg"]
@@ -1835,11 +1914,175 @@ document.getElementById("ot").addEventListener("click", ()=> {
     playMusic(ot,"ot")
 })
 
+document.getElementById("ktfc").addEventListener("click", ()=> {
+    playMusic(ktfc,"ktfc")
+})
+
+document.getElementById("nine").addEventListener("click", ()=> {
+    playMusic(nine,"nine")
+})
+
+document.getElementById("uwme").addEventListener("click", ()=> {
+    playMusic(uwme,"uwme")
+})
+
+document.getElementById("fnw").addEventListener("click", ()=> {
+    playMusic(fnw,"fnw")
+})
 
 
+document.getElementById("hype").addEventListener("click", ()=> {
+    playMusic(hype,"hype")
+})
+
+document.getElementById("wrf").addEventListener("click", ()=> {
+    playMusic(wrf,"wrf")
+})
+
+document.getElementById("redemp").addEventListener("click", ()=> {
+    playMusic(redemp,"redemp")
+})
+
+document.getElementById("withyou").addEventListener("click", ()=> {
+    playMusic(withyou,"withyou")
+})
+
+document.getElementById("faithful").addEventListener("click", ()=> {
+    playMusic(faithful,"faithful")
+})
 
 
+document.getElementById("stillhere").addEventListener("click", ()=> {
+    playMusic(stillhere,"stillhere")
+})
 
+document.getElementById("controlla").addEventListener("click", ()=> {
+    playMusic(controlla,"controlla")
+})
+
+document.getElementById("onedance").addEventListener("click", ()=> {
+    playMusic(onedance,"onedance")
+})
+
+document.getElementById("grammys").addEventListener("click", ()=> {
+    playMusic(grammys,"grammys")
+})
+
+document.getElementById("childsplay").addEventListener("click", ()=> {
+    playMusic(childsplay,"childsplay")
+})
+
+document.getElementById("popstyle").addEventListener("click", ()=> {
+    playMusic(popstyle,"popstyle")
+})
+
+document.getElementById("toogood").addEventListener("click", ()=> {
+    playMusic(toogood,"toogood")
+})
+
+document.getElementById("soint").addEventListener("click", ()=> {
+    playMusic(soint,"soint")
+})
+
+document.getElementById("fandd").addEventListener("click", ()=> {
+    playMusic(fandd,"fandd")
+})
+
+document.getElementById("views").addEventListener("click", ()=> {
+    playMusic(views,"views")
+})
+
+
+document.getElementById("hotline").addEventListener("click", ()=> {
+    playMusic(hotline,"hotline")
+})
+
+document.getElementById("omdb").addEventListener("click", ()=> {
+    playMusic(omdb,"omdb")
+})
+
+
+document.getElementById("sfm").addEventListener("click", ()=> {
+    playMusic(sfm,"sfm")
+})
+
+
+document.getElementById("headlines").addEventListener("click", ()=> {
+    playMusic(headlines,"headlines")
+})
+
+document.getElementById("crewlove").addEventListener("click", ()=> {
+    playMusic(crewlove,"crewlove")
+})
+
+document.getElementById("tc").addEventListener("click", ()=> {
+    playMusic(tc,"tc")
+})
+
+document.getElementById("marvinsroom").addEventListener("click", ()=> {
+    playMusic(marvinsroom,"marvinsroom")
+})
+
+
+document.getElementById("bai").addEventListener("click", ()=> {
+    playMusic(bai,"bai")
+})
+
+
+document.getElementById("ugk").addEventListener("click", ()=> {
+    playMusic(ugk,"ugk")
+})
+
+
+document.getElementById("wbf").addEventListener("click", ()=> {
+    playMusic(wbf,"wbf")
+})
+
+document.getElementById("mmp").addEventListener("click", ()=> {
+    playMusic(mmp,"mmp")
+})
+
+document.getElementById("lk").addEventListener("click", ()=> {
+    playMusic(lk,"lk")
+})
+
+document.getElementById("cameras").addEventListener("click", ()=> {
+    playMusic(cameras,"cameras")
+})
+
+
+document.getElementById("doing").addEventListener("click", ()=> {
+    playMusic(doing,"doing")
+})
+
+
+document.getElementById("trh").addEventListener("click", ()=> {
+    playMusic(trh,"trh")
+})
+
+
+document.getElementById("lwyd").addEventListener("click", ()=> {
+    playMusic(lwyd,"lwyd")
+})
+
+
+document.getElementById("hlyfr").addEventListener("click", ()=> {
+    playMusic(hlyfr,"hlyfr")
+})
+
+
+document.getElementById("practice").addEventListener("click", ()=> {
+    playMusic(practice,"practice")
+})
+
+
+document.getElementById("ride").addEventListener("click", ()=> {
+    playMusic(ride,"ride")
+})
+
+document.getElementById("moto").addEventListener("click", ()=> {
+    playMusic(moto,"moto")
+})
 
 
 
