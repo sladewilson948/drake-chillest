@@ -3,6 +3,11 @@ let flag = true
 let paused = true
 
 
+const stepper = "./songs/Drake- Courtside Stepper.mp3"
+const sheknows = "./songs/Drake   She Knows unreleased.mp3"
+const atthegates = "./songs/drake at the gates.mp3"
+const hiwit = "./songs/DRAKE - HI WHITNEY (LEAKED STUDIO QUALITY).mp3"
+
 const noface = "./songs/Drake No Face Official Song New Release.mp3"
 const sod = "./songs/Drake - Super Soak (SOD) (Official Audio).mp3"
 const itsup = "./songs/01 It_s Up.mp3"
@@ -359,6 +364,10 @@ let seqflag = false
 
 
 const list2 = [
+    [stepper, "stepper"],
+    [sheknows,"sheknows"],
+    [atthegates,"atthegates"],
+    [hiwit,"hiwit"],
     [noface,"noface"],
     [sod,"sod"],
     [cr,"cr"],
@@ -821,6 +830,24 @@ function playMusic(src, elementId)
         np.style.opacity = 1; // Fade back in
     }, 500);
 }
+
+
+document.getElementById("stepper").addEventListener("click", ()=> {
+    playMusic(stepper, "stepper")
+})
+
+document.getElementById("sheknows").addEventListener("click", ()=> {
+    playMusic(sheknows, "sheknows")
+})
+
+
+document.getElementById("atthegates").addEventListener("click", ()=> {
+    playMusic(atthegates,"atthegates")
+})
+
+document.getElementById("hiwit").addEventListener("click", ()=> {
+    playMusic(hiwit, "hiwit")
+})
 
 document.getElementById("noface").addEventListener("click", ()=> {
     playMusic(noface,"noface")
