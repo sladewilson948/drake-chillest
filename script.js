@@ -2,7 +2,7 @@
 let flag = true
 let paused = true
 
-
+const ume = "./songs/U My Everything ft. Drake (Only Drakes verse).mp3"
 const stepper = "./songs/Drake- Courtside Stepper.mp3"
 const sheknows = "./songs/Drake   She Knows unreleased.mp3"
 const atthegates = "./songs/drake at the gates.mp3"
@@ -364,6 +364,7 @@ let seqflag = false
 
 
 const list2 = [
+    [ume,"ume"],
     [stepper, "stepper"],
     [sheknows,"sheknows"],
     [atthegates,"atthegates"],
@@ -831,6 +832,9 @@ function playMusic(src, elementId)
     }, 500);
 }
 
+document.getElementById("ume").addEventListener("click", ()=> {
+    playMusic(ume, "ume")
+})
 
 document.getElementById("stepper").addEventListener("click", ()=> {
     playMusic(stepper, "stepper")
