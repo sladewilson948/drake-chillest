@@ -2,7 +2,7 @@
 let flag = true
 let paused = true
 
-
+const iluvit = "./songs/01 I LUV IT (feat. Playboi Carti).m4a"
 const control = "./songs/PARTYNEXTDOOR P4 01 C o n t r o l.mp3"
 const loose = "./songs/PARTYNEXTDOOR P4 02 L o s e M y M i n d.mp3"
 const stuck = "./songs/PARTYNEXTDOOR P4 03 S t u c k I n M y W a y s.mp3"
@@ -380,6 +380,7 @@ let seqflag = false
 
 
 const list2 = [
+    [iluvit,"iluvit"],
     [control,"control"],
     [loose,"loose"],
     [stuck,"stuck"],
@@ -862,6 +863,9 @@ function playMusic(src, elementId)
     }, 500);
 }
 
+document.getElementById("iluvit").addEventListener("click", ()=> {
+    playMusic(iluvit, "iluvit")
+})
 document.getElementById("control").addEventListener("click", ()=> {
     playMusic(control, "control")
 })
