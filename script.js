@@ -2,6 +2,22 @@
 let flag = true
 let paused = true
 
+
+const control = "./songs/PARTYNEXTDOOR P4 01 C o n t r o l.mp3"
+const loose = "./songs/PARTYNEXTDOOR P4 02 L o s e M y M i n d.mp3"
+const stuck = "./songs/PARTYNEXTDOOR P4 03 S t u c k I n M y W a y s.mp3"
+const cheers = "./songs/PARTYNEXTDOOR P4 04 C h e e r s.mp3"
+const makeit = "./songs/PARTYNEXTDOOR P4 05 M a k e I t T o T h e M o r i n g.mp3"
+const nochill = "./songs/PARTYNEXTDOOR P4 06 N o C h i l l.mp3"
+const herold = "./songs/PARTYNEXTDOOR P4 07 H e r O l d F r i e n d s.mp3"
+const there = "./songs/PARTYNEXTDOOR P4 08 T h e R e t r e a t.mp3"
+const certain = "./songs/PARTYNEXTDOOR P4 09 F o r C e r t a i n.mp3"
+const sorry = "./songs/PARTYNEXTDOOR P4 10 So r r y, B u t I' m Ou t s i d e.mp3"
+const real = "./songs/PARTYNEXTDOOR P4 11 R e a l  Wo m a n.mp3"
+const mother = "./songs/PARTYNEXTDOOR P4 12 A M o t h e r' s P r a y e r.mp3"
+const family = "./songs/PARTYNEXTDOOR P4 13 F a m i l y.mp3"
+const resent = "./songs/PARTYNEXTDOOR P4 14  R e s e n t m e n t.mp3"
+
 const ume = "./songs/U My Everything ft. Drake (Only Drakes verse).mp3"
 const stepper = "./songs/Drake- Courtside Stepper.mp3"
 const sheknows = "./songs/Drake   She Knows unreleased.mp3"
@@ -364,6 +380,20 @@ let seqflag = false
 
 
 const list2 = [
+    [control,"control"],
+    [loose,"loose"],
+    [stuck,"stuck"],
+    [cheers,"cheers"],
+    [makeit,"makeit"],
+    [nochill,"nochill"],
+    [herold,"herold"],
+    [there,"there"],
+    [certain,"certain"],
+    [sorry,"sorry"],
+    [real,"real"],
+    [mother,"mother"],
+    [family,"family"],
+    [resent,"resent"],
     [ume,"ume"],
     [stepper, "stepper"],
     [sheknows,"sheknows"],
@@ -831,6 +861,51 @@ function playMusic(src, elementId)
         np.style.opacity = 1; // Fade back in
     }, 500);
 }
+
+document.getElementById("control").addEventListener("click", ()=> {
+    playMusic(control, "control")
+})
+document.getElementById("loose").addEventListener("click", ()=> {
+    playMusic(loose, "loose")
+})
+document.getElementById("stuck").addEventListener("click", ()=> {
+    playMusic(stuck, "stuck")
+})
+document.getElementById("cheers").addEventListener("click", ()=> {
+    playMusic(cheers, "cheers")
+})
+document.getElementById("makeit").addEventListener("click", ()=> {
+    playMusic(makeit, "makeit")
+})
+document.getElementById("nochill").addEventListener("click", ()=> {
+    playMusic(nochill, "nochill")
+})
+document.getElementById("herold").addEventListener("click", ()=> {
+    playMusic(herold, "herold")
+})
+document.getElementById("there").addEventListener("click", ()=> {
+    playMusic(there, "there")
+})
+document.getElementById("certain").addEventListener("click", ()=> {
+    playMusic(certain, "certain")
+})
+document.getElementById("sorry").addEventListener("click", ()=> {
+    playMusic(sorry, "sorry")
+})
+document.getElementById("real").addEventListener("click", ()=> {
+    playMusic(real, "real")
+})
+document.getElementById("mother").addEventListener("click", ()=> {
+    playMusic(mother, "mother")
+})
+document.getElementById("family").addEventListener("click", ()=> {
+    playMusic(family, "family")
+})
+document.getElementById("resent").addEventListener("click", ()=> {
+    playMusic(resent, "resent")
+})
+
+
 
 document.getElementById("ume").addEventListener("click", ()=> {
     playMusic(ume, "ume")
