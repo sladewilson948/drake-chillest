@@ -2,6 +2,30 @@
 let flag = true
 let paused = true
 
+
+const cn = "./songs/01 CN TOWER.m4a"
+const moth = "./songs/02 MOTH BALLS.m4a"
+const saay = "./songs/03 SOMETHING ABOUT YOU.m4a"
+const cic = "./songs/04 CRYING IN CHANEL.m4a"
+const spider = "./songs/05 SPIDER-MAN SUPERMAN.m4a"
+const deeper = "./songs/06 DEEPER.m4a"
+const stf = "./songs/07 SMALL TOWN FAME.m4a"
+const pim = "./songs/08 PIMMIE'S DILEMMA.m4a"
+const steel = "./songs/09 BRIAN STEEL.m4a"
+const hug = "./songs/songs/10 GIMME A HUG.m4a"
+const rain = "./songs/11 RAINING IN HOUSTON.m4a"
+const lasers = "./songs/12 LASERS.m4a"
+const myp = "./songs/13 MEET YOUR PADRE.m4a"
+const nokia = "./songs/14 NOKIA.m4a"
+const die = "./songs/15 DIE TRYING.m4a"
+const somebody = "./songs/16 SOMEBODY LOVES ME.m4a"
+const streak = "./songs/17 CELIBACY.m4a"
+const omw = "./songs/18 OMW.m4a"
+const glo = "./songs/19 GLORIOUS.m4a"
+const gone = "./songs/20 WHEN HE'S GONE.m4a"
+const greedy = "./songs/21 GREEDY.m4a"
+
+
 const iluvit = "./songs/01 I LUV IT (feat. Playboi Carti).m4a"
 const control = "./songs/PARTYNEXTDOOR P4 01 C o n t r o l.mp3"
 const loose = "./songs/PARTYNEXTDOOR P4 02 L o s e M y M i n d.mp3"
@@ -380,6 +404,27 @@ let seqflag = false
 
 
 const list2 = [
+    [cn,"cn"],
+    [moth,"moth"],
+    [saay,"saay"],
+    [cic,"cic"],
+    [spider,"spider"],
+    [deeper,"deeper"],
+    [stf,"stf"],
+    [pim,"pim"],
+    [steel,"steel"],
+    [hug,"hug"],
+    [rain,"rain"],
+    [lasers,"lasers"],
+    [myp,"myp"],
+    [nokia,"nokia"],
+    [die,"die"],
+    [somebody,"somebody"],
+    [streak,"streak"],
+    [omw,"omw"],
+    [glo,"glo"],
+    [gone,"gone"],
+    [greedy,"greedy"],
     [iluvit,"iluvit"],
     [control,"control"],
     [loose,"loose"],
@@ -862,6 +907,70 @@ function playMusic(src, elementId)
         np.style.opacity = 1; // Fade back in
     }, 500);
 }
+
+document.getElementById("cn").addEventListener("click", ()=> {
+    playMusic(cn,"cn")
+})
+document.getElementById("moth").addEventListener("click", ()=> {
+    playMusic(moth,"moth")
+})
+document.getElementById("saay").addEventListener("click", ()=> {
+    playMusic(saay,"saay")
+})
+document.getElementById("cic").addEventListener("click", ()=> {
+    playMusic(cic,"cic")
+})
+document.getElementById("spider").addEventListener("click", ()=> {
+    playMusic(spider,"spider")
+})
+document.getElementById("deeper").addEventListener("click", ()=> {
+    playMusic(deeper,"deeper")
+})
+document.getElementById("stf").addEventListener("click", ()=> {
+    playMusic(stf,"stf")
+})
+document.getElementById("pim").addEventListener("click", ()=> {
+    playMusic(pim,"pim")
+})
+document.getElementById("steel").addEventListener("click", ()=> {
+    playMusic(steel,"steel")
+})
+document.getElementById("hug").addEventListener("click", ()=> {
+    playMusic(hug,"hug")
+})
+document.getElementById("rain").addEventListener("click", ()=> {
+    playMusic(rain,"rain")
+})
+document.getElementById("lasers").addEventListener("click", ()=> {
+    playMusic(lasers,"lasers")
+})
+document.getElementById("myp").addEventListener("click", ()=> {
+    playMusic(myp,"myp")
+})
+document.getElementById("nokia").addEventListener("click", ()=> {
+    playMusic(nokia,"nokia")
+})
+document.getElementById("die").addEventListener("click", ()=> {
+    playMusic(die,"die")
+})
+document.getElementById("somebody").addEventListener("click", ()=> {
+    playMusic(somebody,"somebody")
+})
+document.getElementById("streak").addEventListener("click", ()=> {
+    playMusic(streak,"streak")
+})
+document.getElementById("omw").addEventListener("click", ()=> {
+    playMusic(omw,"omw")
+})
+document.getElementById("glo").addEventListener("click", ()=> {
+    playMusic(glo,"glo")
+})
+document.getElementById("gone").addEventListener("click", ()=> {
+    playMusic(gone,"gone")
+})
+document.getElementById("greedy").addEventListener("click", ()=> {
+    playMusic(greedy,"greedy")
+})
 
 document.getElementById("iluvit").addEventListener("click", ()=> {
     playMusic(iluvit, "iluvit")
