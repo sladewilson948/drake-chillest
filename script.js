@@ -3,6 +3,8 @@ let flag = true
 let paused = true
 
 
+const waiting = "./songs/DRAKE & 21 SAVAGE - WAITING TO EXHALE.mp3"
+const cheerios = "./songs/Drake - CHEERIOS.mp3"
 const cn = "./songs/01 CN TOWER.m4a"
 const moth = "./songs/02 MOTH BALLS.m4a"
 const saay = "./songs/03 SOMETHING ABOUT YOU.m4a"
@@ -404,6 +406,8 @@ let seqflag = false
 
 
 const list2 = [
+    [waiting,"waiting"],
+    [cheerios,"cheerios"],
     [cn,"cn"],
     [moth,"moth"],
     [saay,"saay"],
@@ -907,6 +911,13 @@ function playMusic(src, elementId)
         np.style.opacity = 1; // Fade back in
     }, 500);
 }
+
+document.getElementById("waiting").addEventListener("click", ()=> {
+    playMusic(waiting,"waiting")
+})
+document.getElementById("cheerios").addEventListener("click", ()=> {
+    playMusic(cheerios,"cheerios")
+})
 
 document.getElementById("cn").addEventListener("click", ()=> {
     playMusic(cn,"cn")
