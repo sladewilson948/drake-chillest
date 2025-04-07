@@ -3,6 +3,7 @@ let flag = true
 let paused = true
 
 
+const spree= "./songs/Drake - Shopping Spree.mp3"
 const waiting = "./songs/DRAKE & 21 SAVAGE - WAITING TO EXHALE.mp3"
 const cheerios = "./songs/Drake - CHEERIOS.mp3"
 const cn = "./songs/01 CN TOWER.m4a"
@@ -406,6 +407,7 @@ let seqflag = false
 
 
 const list2 = [
+    [spree,"spree"],
     [waiting,"waiting"],
     [cheerios,"cheerios"],
     [cn,"cn"],
@@ -764,6 +766,9 @@ let idx = getRandomIndex()
 
 document.getElementById("button").addEventListener("click", playSequential)
 
+//// function to play a song on loop
+
+
 
 function playSequential()
 {
@@ -912,6 +917,9 @@ function playMusic(src, elementId)
     }, 500);
 }
 
+document.getElementById("spree").addEventListener("click", ()=> {
+    playMusic(spree,"spree")
+})
 document.getElementById("waiting").addEventListener("click", ()=> {
     playMusic(waiting,"waiting")
 })

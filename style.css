@@ -120,6 +120,22 @@ body
 }
 
 
+#onloop
+{
+    font-size: 22px;
+    background-color: rgb(245, 189, 8);
+    font-family: "Outfit", sans-serif;
+    border-radius: 5px;
+    width: 102px;
+    height: 33px;
+    
+}
+
+#onloop:hover
+{
+    cursor: pointer;
+}
+
 .mood
 {
     font-family: "Outfit", sans-serif;
