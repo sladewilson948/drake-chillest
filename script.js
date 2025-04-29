@@ -407,7 +407,7 @@ let seqflag = false
 
 
 const list2 = [
-    [sometimes,'sometimes']
+    [sometimes,'sometimes'],
     [spree,"spree"],
     [waiting,"waiting"],
     [cheerios,"cheerios"],
