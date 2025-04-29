@@ -2,7 +2,7 @@
 let flag = true
 let paused = true
 
-
+const sometimes = "./songs/Drake - Sometimes (For All The Dogs Leak).mp3"
 const spree= "./songs/Drake - Shopping Spree.mp3"
 const waiting = "./songs/DRAKE & 21 SAVAGE - WAITING TO EXHALE.mp3"
 const cheerios = "./songs/Drake - CHEERIOS.mp3"
@@ -407,6 +407,7 @@ let seqflag = false
 
 
 const list2 = [
+    [sometimes,'sometimes']
     [spree,"spree"],
     [waiting,"waiting"],
     [cheerios,"cheerios"],
@@ -917,6 +918,9 @@ function playMusic(src, elementId)
     }, 500);
 }
 
+document.getElementById("sometimes").addEventListener("click", ()=> {
+    playMusic(sometimes,"sometimes")
+})
 document.getElementById("spree").addEventListener("click", ()=> {
     playMusic(spree,"spree")
 })
