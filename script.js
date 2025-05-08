@@ -393,6 +393,7 @@ var hlyfr = "./songs/Drake - HYFR (Hell Ya Fucking Right) (Explicit) ft. Lil Way
 var practice = "./songs/Practice.mp3"
 var ride = "./songs/The Ride.mp3"
 var moto = "./songs/Drake - The Motto (feat. Lil Wayne) [Bonus Track] (Explicit).mp3"
+const all_tiles = document.querySelectorAll(".gird-item-rap")
 
 
 playBar.style.display = "none"
@@ -406,8 +407,8 @@ let seqflag = false
 
 
 
-let list3 = document.querySelectorAll(".gird-item-rap")
-const list2 = Array.from(list3).map(x=> [globalThis[x.getAttribute("id")],x.getAttribute("id")])
+
+const list2 = Array.from(all_tiles).map(x=> [globalThis[x.getAttribute("id")],x.getAttribute("id")])
 
 
 
@@ -428,7 +429,6 @@ function playSequential()
             prev.currentTime = 0
         }
         playBar.style.display = "flex"
-        console.log(list2[idx2])
         const newSrc = new Audio(list2[idx2][0])
         curr = newSrc
         prev = newSrc
@@ -564,7 +564,7 @@ function playMusic(src, elementId)
 }
 
 
-const all_tiles = document.querySelectorAll(".gird-item-rap")
+
 all_tiles.forEach(x=>{
     x.addEventListener("click", ()=>{
         playMusic(globalThis[x.getAttribute("id")],x.getAttribute("id"))
