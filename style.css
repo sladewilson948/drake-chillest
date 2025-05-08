@@ -168,7 +168,7 @@ body
     padding-right: 55px;
 }
 
-.grid-itme
+.gird-item-rap
 {
     
     color: white;
@@ -203,7 +203,7 @@ body
     opacity: 1;
     }
 
-.grid-itme:hover
+.gird-item-rap:hover
 {
     cursor: pointer;
     transform: translateY(-10px); /* Lift up */
@@ -311,7 +311,7 @@ body
         gap: 16px;
     }
 
-    .grid-itme
+    .gird-item-rap
     {
         height: 100px;
         width: 100px;
