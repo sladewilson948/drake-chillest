@@ -2,6 +2,7 @@
 let flag = true
 let paused = true
 
+var mentionme = "./songs/Drake - Mention Me (feat. Rema).mp3"
 var sometimes = "./songs/Drake - Sometimes (For All The Dogs Leak).mp3"
 var spree= "./songs/Drake - Shopping Spree.mp3"
 var waiting = "./songs/DRAKE & 21 SAVAGE - WAITING TO EXHALE.mp3"
