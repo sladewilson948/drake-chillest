@@ -413,7 +413,6 @@ let seqflag = false
 
 const list2 = Array.from(all_tiles).map(x=> [globalThis[x.getAttribute("id")],x.getAttribute("id")])
 
-console.log(list2)
 
 
 
