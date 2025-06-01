@@ -377,6 +377,29 @@ var soint = "./songs/Summers Over Interlude - EXTENDED CUT.mp3"
 var fandd = "./songs/Drake - Fire & Desire.mp3"
 var views = "./songs/Drake - Views (Audio).mp3"
 var hotline = "./songs/Drake- Hotline Bling (Official Audio) copy.mp3"
+
+var sixgod = "./songs/Drake - 6 God.mp3"
+var sixman = ".songs/Drake - 6 Man.mp3"
+var sixpm = "./songs/Drake - 6PM In New York.mp3"
+var tenbands = "./songs/Drake - 10 Bands.mp3"
+var energy = "./songs/Drake - Energy.mp3"
+var jungle = "./songs/Drake - Jungle.mp3"
+var yourself = "./songs/Drake - Know Yourself.mp3"
+var legend = "./songs/Drake - Legend.mp3"
+var madonna = "./songs/Drake - Madonna.mp3"
+var notellin = "./songs/Drake - No Tellin'.mp3"
+var forever = "./songs/Drake - Now & Forever.mp3"
+var star = "./songs/Drake - Star67.mp3"
+var youandthesix = "./songs/Drake - You & The 6.mp3"
+var usedto = "./songs/Drake, Lil Wayne - Used To.mp3"
+var preach = "./songs/Drake, PARTYNEXTDOOR - Preach.mp3"
+var wed = "./songs/Drake, PARTYNEXTDOOR - Wednesday Night Interlude.mp3"
+var company = "./songs/Drake, Travis Scott - Company"
+
+
+
+
+
 var omdb = "./songs/Over My Dead Body.mp3"
 var sfm = "./songs/Shot For Me.mp3"
 var headlines = "./songs/Drake   Headlines Explicit HD.mp3"
