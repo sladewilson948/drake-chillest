@@ -394,7 +394,7 @@ var youandthesix = "./songs/Drake - You & The 6.mp3"
 var usedto = "./songs/Drake, Lil Wayne - Used To.mp3"
 var preach = "./songs/Drake, PARTYNEXTDOOR - Preach.mp3"
 var wed = "./songs/Drake, PARTYNEXTDOOR - Wednesday Night Interlude.mp3"
-var company = "./songs/Drake, Travis Scott - Company"
+var company = "./songs/Drake, Travis Scott - Company.mp3"
 
 
 
